@@ -1671,11 +1671,34 @@ import {
   render,
   h,
 } from "https://cdn.skypack.dev/pin/preact@v10.11.3-Ugxe7epKPQZ3xKBVvZAs/mode=imports,min/optimized/preact.js";
+
+import {
+  useState,
+  useEffect,
+  useRef,
+} from "https://cdn.skypack.dev/pin/preact@v10.11.3-Ugxe7epKPQZ3xKBVvZAs/mode=imports,min/optimized/preact/hooks.js";
+
 import htm from "https://cdn.skypack.dev/pin/htm@v3.1.1-pWM29AHF3JmwKPnFwyeP/mode=imports,min/optimized/htm.js";
 
 const html = htm.bind(h);
 
 const App = () => {
+  const [letter, setLetter] = useState("A");
+  const ref = useRef();
+
+  useEffect(() => {
+    if (ref.current) {
+      ref.current.onscroll = function () {
+        document.querySelectorAll("[data-letter]").forEach((el) => {
+          const letter = el.querySelector("h2")?.innerText[0];
+          if (el.getBoundingClientRect().top === 0) {
+            setLetter(letter);
+          }
+        });
+      };
+    }
+  }, [ref]);
+
   return html`
     <main
       class="h-screen max-h-[100dvh] overflow-y-scroll snap-y snap-mandatory"
@@ -1693,22 +1716,27 @@ const App = () => {
           >Scroll Down</span
         >
       </header>
-      <ul class="snap-start h-full overflow-y-scroll snap-y snap-mandatory">
+      <ul
+        ref=${ref}
+        class="snap-start h-full overflow-y-scroll snap-y snap-mandatory"
+      >
         ${[...Object.keys(languages).sort()].map((language) => {
           const literal = languages[language].translations["thank you"].literal;
           const pronunciation =
             languages[language].translations["thank you"].pronunciation;
           const spokenIn = languages[language].spokenIn;
           const showMaxspokenIn = 5;
+
           return html`
             <li
-              class="snap-center block h-full sticky top-0 bg-white flex flex-col py-10 px-6 border-t"
+              data-letter=${language[0]}
+              class="snap-center block h-full bg-white flex flex-col py-10 px-6 pt-20 border-t"
             >
               <div class="h-full flex flex-col text-center">
-                <h2 class="text-xl font-medium">${language}</h2>
+                <h2 class="text-xl font-medium text-black/80">${language}</h2>
                 <div class="my-auto">
                   <h3
-                    class=${literal.length > 12
+                    class=${literal.length > 12 || language === "Japanese"
                       ? "font-bold mb-[0.5vw] text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
                       : "font-bold mb-[1vw] text-4xl sm:text-5xl md:text-6xl lg:text-7xl"}
                   >
@@ -1716,29 +1744,58 @@ const App = () => {
                   </h3>
                   <h4 class="font-light">(${pronunciation})</h4>
                 </div>
+                <h5
+                  class="mx-auto px-12 uppercase text-xs border-b pb-2 mb-3 text-black/30 tracking-wider font-medium"
+                >
+                  Spoken In
+                </h5>
                 <p
                   class="text-xs max-w-screen-sm mx-auto leading-relaxed flex flex-wrap gap-x-1 gap-y-1.5 justify-center items-center"
                 >
-                  ${spokenIn
-                    .slice(0, showMaxspokenIn)
-                    .map(
-                      (x) =>
-                        html`<span
+                  ${spokenIn.slice(0, showMaxspokenIn).map(
+                    (x) =>
+                      html`
+                        <span
                           class="flex gap-1 border py-0.5 pl-1.5 pr-2 rounded-full"
                           >${flags[x]}
-                          <span class="opacity-60">${x}</span></span
-                        >`
-                    )}${spokenIn.length > showMaxspokenIn &&
-                  html`<span
-                    class="border py-0.5 px-2 text-black/60 rounded-full"
-                    >+ ${spokenIn.length - showMaxspokenIn} more countries</span
-                  >`}
+                          <span class="opacity-60">${x}</span>
+                        </span>
+                      `
+                  )}${spokenIn.length > showMaxspokenIn &&
+                  html`
+                    <span class="border py-0.5 px-2 text-black/60 rounded-full">
+                      + ${spokenIn.length - showMaxspokenIn} more countries
+                    </span>
+                  `}
                 </p>
               </div>
             </li>
           `;
         })}
       </ul>
+      <aside
+        class="w-full absolute top-0 flex justify-center gap-1 py-4 text-xs bg-white border-b"
+      >
+        ${[
+          ...new Set(
+            Object.keys(languages)
+              .map((x) => x[0])
+              .sort()
+          ),
+        ].map(
+          (x) =>
+            html`<button
+              class=${x === letter ? "font-bold" : "font-light"}
+              onclick=${() => {
+                setLetter(x);
+                const el = document.querySelector(`[data-letter="${x}"]`);
+                el?.scrollIntoView();
+              }}
+            >
+              ${x}
+            </button>`
+        )}
+      </aside>
     </main>
   `;
 };
