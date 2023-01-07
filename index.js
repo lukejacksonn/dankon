@@ -222,7 +222,7 @@ const languages = {
   Abkhaz: {
     spokenIn: ["Abkhazia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Yıtabup",
         pronunciation: "yee-tah-boo",
       },
@@ -240,7 +240,7 @@ const languages = {
       "Transnistria",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Спасибо",
         pronunciation: "spah-see-boh",
       },
@@ -249,7 +249,7 @@ const languages = {
   "Persian (Dari)": {
     spokenIn: ["Afghanistan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "تشکر",
         pronunciation: "tshah-kahr",
       },
@@ -258,7 +258,7 @@ const languages = {
   Pashto: {
     spokenIn: ["Afghanistan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "شكرونه",
         pronunciation: "shah-kahr-ohn-ah",
       },
@@ -267,7 +267,7 @@ const languages = {
   Albanian: {
     spokenIn: ["Albania", "Kosovo", "North Macedonia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Faleminderit",
         pronunciation: "fah-leh-meen-deh-reet",
       },
@@ -301,7 +301,7 @@ const languages = {
       "Yemen",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "شكرا",
         pronunciation: "shah-kahr-ah",
       },
@@ -310,7 +310,7 @@ const languages = {
   Tamazight: {
     spokenIn: ["Algeria", "Morocco", "Sahrawi Arab Democratic Republic"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tasemdaht",
         pronunciation: "tah-sehm-dahht",
       },
@@ -319,7 +319,7 @@ const languages = {
   Catalan: {
     spokenIn: ["Andorra"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Gràcies",
         pronunciation: "grah-see-ah",
       },
@@ -338,7 +338,7 @@ const languages = {
       "Brazil",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Obrigado",
         pronunciation: "oh-bree-gah-doh",
       },
@@ -347,7 +347,7 @@ const languages = {
   Armenian: {
     spokenIn: ["Armenia", "Artsakh"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Շնորհակալություն",
         pronunciation: "shnohr-hah-kah-loo-tsoo-ee-yoon",
       },
@@ -356,7 +356,7 @@ const languages = {
   German: {
     spokenIn: ["Austria", "Belgium", "Germany", "Liechtenstein", "Luxembourg"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Danke",
         pronunciation: "dahn-kah",
       },
@@ -365,7 +365,7 @@ const languages = {
   Azerbaijani: {
     spokenIn: ["Azerbaijan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Təşəkkür edirəm",
         pronunciation: "tah-shah-khoo-er eh-dee-rehm",
       },
@@ -441,7 +441,7 @@ const languages = {
       "Zimbabwe",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Thank you",
         pronunciation: "thahngk yoo",
       },
@@ -450,7 +450,7 @@ const languages = {
   Bengali: {
     spokenIn: ["Bangladesh"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ধন্যবাদ",
         pronunciation: "dahn-yah-bahd",
       },
@@ -459,7 +459,7 @@ const languages = {
   Belarusian: {
     spokenIn: ["Belarus"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Дзякую",
         pronunciation: "dzyah-koo-yoo",
       },
@@ -468,7 +468,7 @@ const languages = {
   Dutch: {
     spokenIn: ["Belgium", "Netherlands", "Suriname"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Dank je",
         pronunciation: "dahnk yeh",
       },
@@ -507,7 +507,7 @@ const languages = {
       "Vanuatu",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -516,7 +516,7 @@ const languages = {
   Dzongkha: {
     spokenIn: ["Bhutan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "གཟུགས་རབ་",
         pronunciation: "gzu-ku rab",
       },
@@ -525,7 +525,7 @@ const languages = {
   Aymara: {
     spokenIn: ["Bolivia", "Peru"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Añaraki",
         pronunciation: "ahn-ah-rah-kee",
       },
@@ -534,7 +534,7 @@ const languages = {
   Chiquitano: {
     spokenIn: ["Bolivia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Pupa",
         pronunciation: "poo-pah",
       },
@@ -543,7 +543,7 @@ const languages = {
   Guaraní: {
     spokenIn: ["Bolivia", "Paraguay"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Aguyje",
         pronunciation: "ah-goo-ee-hey",
       },
@@ -552,7 +552,7 @@ const languages = {
   Quechua: {
     spokenIn: ["Bolivia", "Ecuador", "Peru"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Allillanchu",
         pronunciation: "ah-lee-yahn-chu",
       },
@@ -561,7 +561,7 @@ const languages = {
   Bosnian: {
     spokenIn: ["Bosnia and Herzegovina"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Hvala",
         pronunciation: "hval-ah",
       },
@@ -570,7 +570,7 @@ const languages = {
   Malay: {
     spokenIn: ["Brunei", "Christmas Island", "Malaysia", "Singapore"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Terima kasih",
         pronunciation: "tay-ree-mah kah-see",
       },
@@ -579,7 +579,7 @@ const languages = {
   Bulgarian: {
     spokenIn: ["Bulgaria"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Благодаря",
         pronunciation: "blah-goh-dah-ryah",
       },
@@ -588,7 +588,7 @@ const languages = {
   Kirundi: {
     spokenIn: ["Burundi"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Murakoze",
         pronunciation: "moo-rah-koh-zay",
       },
@@ -597,7 +597,7 @@ const languages = {
   Khmer: {
     spokenIn: ["Cambodia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "អរគុណ",
         pronunciation: "aw-koon",
       },
@@ -606,7 +606,7 @@ const languages = {
   Sango: {
     spokenIn: ["Central African Republic"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -615,7 +615,7 @@ const languages = {
   Mandarin: {
     spokenIn: ["China", "Christmas Island", "Singapore", "Taiwan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "谢谢",
         pronunciation: "see-ye see-ye",
       },
@@ -624,7 +624,7 @@ const languages = {
   Cantonese: {
     spokenIn: ["China", "Vietnam", "Malaysia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "多謝",
         pronunciation: "doh-je",
       },
@@ -655,7 +655,7 @@ const languages = {
       "Uruguay",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Gracias",
         pronunciation: "grah-see-ass",
       },
@@ -664,7 +664,7 @@ const languages = {
   Comorian: {
     spokenIn: ["Comoros"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Marahaba",
         pronunciation: "mah-rah-hah-bah",
       },
@@ -673,7 +673,7 @@ const languages = {
   Croatian: {
     spokenIn: ["Croatia", "Bosnia and Herzegovina"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Hvala",
         pronunciation: "hval-ah",
       },
@@ -682,7 +682,7 @@ const languages = {
   Greek: {
     spokenIn: ["Greece", "Cyprus"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ευχαριστώ",
         pronunciation: "eff-khar-ee-stoh",
       },
@@ -691,7 +691,7 @@ const languages = {
   Turkish: {
     spokenIn: ["Cyprus", "Northern Cyprus", "Turkey"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Teşekkür ederim",
         pronunciation: "teh-shay-kur eh-deh-ree-m",
       },
@@ -700,7 +700,7 @@ const languages = {
   Czech: {
     spokenIn: ["Czech Republic"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Děkuji",
         pronunciation: "day-koo-ee",
       },
@@ -709,7 +709,7 @@ const languages = {
   Slovak: {
     spokenIn: ["Czech Republic", "Slovakia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ďakujem",
         pronunciation: "dah-koo-yehm",
       },
@@ -718,7 +718,7 @@ const languages = {
   Danish: {
     spokenIn: ["Denmark"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tak",
         pronunciation: "tahk",
       },
@@ -727,7 +727,7 @@ const languages = {
   Tetum: {
     spokenIn: ["East Timor"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Obrigadu",
         pronunciation: "oh-bree-gah-doo",
       },
@@ -736,7 +736,7 @@ const languages = {
   Tigrinya: {
     spokenIn: ["Eritrea", "Ethiopia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "እናቴ",
         pronunciation: "eh-nah-teh",
       },
@@ -745,7 +745,7 @@ const languages = {
   Estonian: {
     spokenIn: ["Estonia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Aitäh",
         pronunciation: "eye-tah",
       },
@@ -754,7 +754,7 @@ const languages = {
   Swazi: {
     spokenIn: ["Eswatini", "South Africa"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ngiyabonga",
         pronunciation: "eng-ee-ah-bong-ah",
       },
@@ -763,7 +763,7 @@ const languages = {
   Afar: {
     spokenIn: ["Ethiopia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Mahadsanid",
         pronunciation: "mah-hah-d-sah-nee-d",
       },
@@ -772,7 +772,7 @@ const languages = {
   Amharic: {
     spokenIn: ["Ethiopia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "አመሰግናለሁ",
         pronunciation: "ah-meh-sah-gnah-lay-hoo",
       },
@@ -781,7 +781,7 @@ const languages = {
   Oromo: {
     spokenIn: ["Ethiopia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Waamicha",
         pronunciation: "wah-mee-chah",
       },
@@ -790,7 +790,7 @@ const languages = {
   Somali: {
     spokenIn: ["Ethiopia", "Somaliland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Mahadsanid",
         pronunciation: "mah-hah-d-sah-nee-d",
       },
@@ -799,7 +799,7 @@ const languages = {
   Fijian: {
     spokenIn: ["Fiji"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Vinaka",
         pronunciation: "vee-nah-kah",
       },
@@ -808,7 +808,7 @@ const languages = {
   "Fiji Hindi": {
     spokenIn: ["Fiji"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Dhanyavaad",
         pronunciation: "dhan-yah-vahd",
       },
@@ -817,7 +817,7 @@ const languages = {
   Finnish: {
     spokenIn: ["Finland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Kiitos",
         pronunciation: "kee-tohs",
       },
@@ -826,7 +826,7 @@ const languages = {
   Swedish: {
     spokenIn: ["Finland", "Sweden"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tack",
         pronunciation: "tahk",
       },
@@ -835,7 +835,7 @@ const languages = {
   Georgian: {
     spokenIn: ["Georgia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "მადლობა",
         pronunciation: "mah-dloh-bah",
       },
@@ -844,7 +844,7 @@ const languages = {
   "Haitian Creole": {
     spokenIn: ["Haiti"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Mèsi",
         pronunciation: "meh-see",
       },
@@ -853,7 +853,7 @@ const languages = {
   Hungarian: {
     spokenIn: ["Hungary"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Köszönöm",
         pronunciation: "koh-sho-nohm",
       },
@@ -862,7 +862,7 @@ const languages = {
   Icelandic: {
     spokenIn: ["Iceland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Takk",
         pronunciation: "tahk",
       },
@@ -871,7 +871,7 @@ const languages = {
   Hindi: {
     spokenIn: ["India"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "धन्यवाद",
         pronunciation: "dhan-yah-vahd",
       },
@@ -880,7 +880,7 @@ const languages = {
   Indonesian: {
     spokenIn: ["Indonesia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Terima kasih",
         pronunciation: "tay-ree-mah kah-see",
       },
@@ -889,7 +889,7 @@ const languages = {
   Persian: {
     spokenIn: ["Iran"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "متشکرم",
         pronunciation: "meh-tah-shah-kah-rahm",
       },
@@ -898,7 +898,7 @@ const languages = {
   Kurdish: {
     spokenIn: ["Iraq"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Spas",
         pronunciation: "spahs",
       },
@@ -907,7 +907,7 @@ const languages = {
   Irish: {
     spokenIn: ["Ireland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Go raibh maith agat",
         pronunciation: "goh ree-vah mah-ah-gah",
       },
@@ -916,7 +916,7 @@ const languages = {
   Hebrew: {
     spokenIn: ["Israel"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "תודה",
         pronunciation: "toh-dah",
       },
@@ -930,7 +930,7 @@ const languages = {
       "Vatican City",
     ],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Grazie",
         pronunciation: "grah-zee-eh",
       },
@@ -939,7 +939,7 @@ const languages = {
   Japanese: {
     spokenIn: ["Japan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ありがとうございます",
         pronunciation: "arigatou gozaimasu",
       },
@@ -948,7 +948,7 @@ const languages = {
   Kazakh: {
     spokenIn: ["Kazakhstan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "рахмет",
         pronunciation: "rah-met",
       },
@@ -957,7 +957,7 @@ const languages = {
   Swahili: {
     spokenIn: ["Kenya", "Rwanda", "Tanzania", "Uganda"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Asante",
         pronunciation: "ah-sahn-teh",
       },
@@ -966,7 +966,7 @@ const languages = {
   Korean: {
     spokenIn: ["North Korea", "South Korea"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "감사합니다",
         pronunciation: "gam-sah-ham-ni-da",
       },
@@ -975,7 +975,7 @@ const languages = {
   Serbian: {
     spokenIn: ["Kosovo", "Serbia", "Bosnia and Herzegovina"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Хвала",
         pronunciation: "khvah-lah",
       },
@@ -984,7 +984,7 @@ const languages = {
   "Standard Arabic": {
     spokenIn: ["Kuwait"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "شكراً",
         pronunciation: "shukran",
       },
@@ -993,7 +993,7 @@ const languages = {
   Kyrgyz: {
     spokenIn: ["Kyrgyzstan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "рахмат",
         pronunciation: "rah-mat",
       },
@@ -1002,7 +1002,7 @@ const languages = {
   Lao: {
     spokenIn: ["Laos"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ຂອບໃຈ",
         pronunciation: "kho-bhajai",
       },
@@ -1011,7 +1011,7 @@ const languages = {
   Latvian: {
     spokenIn: ["Latvia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Paldies",
         pronunciation: "pahl-dees",
       },
@@ -1020,7 +1020,7 @@ const languages = {
   Sotho: {
     spokenIn: ["Lesotho", "South Africa", "Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ke a leboga",
         pronunciation: "keh ah leh-boh-gah",
       },
@@ -1029,7 +1029,7 @@ const languages = {
   Lithuanian: {
     spokenIn: ["Lithuania"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ačiū",
         pronunciation: "ah-chee-oo",
       },
@@ -1038,7 +1038,7 @@ const languages = {
   Luxembourgish: {
     spokenIn: ["Luxembourg"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1047,7 +1047,7 @@ const languages = {
   Malagasy: {
     spokenIn: ["Madagascar"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Misaotra",
         pronunciation: "mee-sah-oh-tra",
       },
@@ -1056,7 +1056,7 @@ const languages = {
   Chichewa: {
     spokenIn: ["Malawi"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Zikomo",
         pronunciation: "zee-koh-moh",
       },
@@ -1065,7 +1065,7 @@ const languages = {
   Dhivehi: {
     spokenIn: ["Maldives"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Kuɗi aadhamin",
         pronunciation: "koo-dee ah-dah-meen",
       },
@@ -1074,7 +1074,7 @@ const languages = {
   Maltese: {
     spokenIn: ["Malta"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Grazzi",
         pronunciation: "grah-zee",
       },
@@ -1083,7 +1083,7 @@ const languages = {
   "Mauritian Creole (Morisien)": {
     spokenIn: ["Mauritius"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1092,7 +1092,7 @@ const languages = {
   Romanian: {
     spokenIn: ["Moldova", "Romania"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Mulțumesc",
         pronunciation: "mool-tsoo-mesh",
       },
@@ -1101,7 +1101,7 @@ const languages = {
   Mongolian: {
     spokenIn: ["Mongolia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Баярлалаа",
         pronunciation: "bay-arl-ah-ah",
       },
@@ -1110,7 +1110,7 @@ const languages = {
   Montenegrin: {
     spokenIn: ["Montenegro"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Hvala",
         pronunciation: "hval-ah",
       },
@@ -1119,7 +1119,7 @@ const languages = {
   Burmese: {
     spokenIn: ["Myanmar (Burma)"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ကြယ်ပါတယ်",
         pronunciation: "kya-pa-ta",
       },
@@ -1128,7 +1128,7 @@ const languages = {
   Nauruan: {
     spokenIn: ["Nauru"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Arigu",
         pronunciation: "ah-ree-goo",
       },
@@ -1137,7 +1137,7 @@ const languages = {
   Nepali: {
     spokenIn: ["Nepal"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "धन्यवाद",
         pronunciation: "dhanyavaad",
       },
@@ -1146,7 +1146,7 @@ const languages = {
   Frisian: {
     spokenIn: ["Netherlands"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tank jo",
         pronunciation: "tahnk yoh",
       },
@@ -1155,7 +1155,7 @@ const languages = {
   "Māori language": {
     spokenIn: ["New Zealand"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Kia ora",
         pronunciation: "kee-ah-oh-rah",
       },
@@ -1164,7 +1164,7 @@ const languages = {
   Niuean: {
     spokenIn: ["Niue"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Fakaaue lahi",
         pronunciation: "fah-kah-oh-ah-lah-hee",
       },
@@ -1173,7 +1173,7 @@ const languages = {
   Norfuk: {
     spokenIn: ["Norfolk Island"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tankyu",
         pronunciation: "tahnk-yoo",
       },
@@ -1182,7 +1182,7 @@ const languages = {
   Macedonian: {
     spokenIn: ["North Macedonia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Благодарам",
         pronunciation: "blah-goh-dah-rahm",
       },
@@ -1191,7 +1191,7 @@ const languages = {
   Norwegian: {
     spokenIn: ["Norway"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Takk",
         pronunciation: "tahk",
       },
@@ -1200,7 +1200,7 @@ const languages = {
   Sami: {
     spokenIn: ["Norway"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Gávnnat",
         pronunciation: "gahv-nah",
       },
@@ -1209,7 +1209,7 @@ const languages = {
   Urdu: {
     spokenIn: ["Pakistan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "شکریہ",
         pronunciation: "shukriya",
       },
@@ -1218,7 +1218,7 @@ const languages = {
   Palauan: {
     spokenIn: ["Palau"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1227,7 +1227,7 @@ const languages = {
   "Hiri Motu": {
     spokenIn: ["Papua New Guinea"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tuguraki",
         pronunciation: "too-goo-rah-kee",
       },
@@ -1236,7 +1236,7 @@ const languages = {
   "Tok Pisin": {
     spokenIn: ["Papua New Guinea"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tenkyu",
         pronunciation: "ten-kee-oo",
       },
@@ -1245,7 +1245,7 @@ const languages = {
   Asháninka: {
     spokenIn: ["Peru"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Nájtsi",
         pronunciation: "nah-ee-chee",
       },
@@ -1254,7 +1254,7 @@ const languages = {
   Tagalog: {
     spokenIn: ["Philippines"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Salamat",
         pronunciation: "sah-lah-mah",
       },
@@ -1263,7 +1263,7 @@ const languages = {
   Polish: {
     spokenIn: ["Poland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Dziękuję",
         pronunciation: "jeh-ku-yeh",
       },
@@ -1272,7 +1272,7 @@ const languages = {
   Kinyarwanda: {
     spokenIn: ["Rwanda"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Murakoze",
         pronunciation: "moo-rah-koh-zeh",
       },
@@ -1281,7 +1281,7 @@ const languages = {
   "Seychellois Creole": {
     spokenIn: ["Seychelles"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1290,7 +1290,7 @@ const languages = {
   Tamil: {
     spokenIn: ["Singapore", "Sri Lanka"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "நன்றி",
         pronunciation: "nah-nree",
       },
@@ -1299,7 +1299,7 @@ const languages = {
   Slovene: {
     spokenIn: ["Slovenia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Hvala",
         pronunciation: "hval-ah",
       },
@@ -1308,7 +1308,7 @@ const languages = {
   Afrikaans: {
     spokenIn: ["South Africa"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Dankie",
         pronunciation: "dahn-kee",
       },
@@ -1317,7 +1317,7 @@ const languages = {
   "Southern Ndebele": {
     spokenIn: ["South Africa"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ngiyabonga",
         pronunciation: "ng-ee-yah-bong-ah",
       },
@@ -1326,7 +1326,7 @@ const languages = {
   "Northern Sotho": {
     spokenIn: ["South Africa"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ke a leboga",
         pronunciation: "keh ah leh-boh-gah",
       },
@@ -1335,7 +1335,7 @@ const languages = {
   Tsonga: {
     spokenIn: ["South Africa"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ndzi kombela",
         pronunciation: "ndzee kohm-bell-ah",
       },
@@ -1344,7 +1344,7 @@ const languages = {
   Tswana: {
     spokenIn: ["South Africa", "Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ke a leboga",
         pronunciation: "keh ah leh-boh-gah",
       },
@@ -1353,7 +1353,7 @@ const languages = {
   Venda: {
     spokenIn: ["South Africa", "Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ndaa",
         pronunciation: "nd-ah",
       },
@@ -1362,7 +1362,7 @@ const languages = {
   Xhosa: {
     spokenIn: ["South Africa", "Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Enkosi",
         pronunciation: "en-koh-see",
       },
@@ -1371,7 +1371,7 @@ const languages = {
   Zulu: {
     spokenIn: ["South Africa"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ngiyabonga",
         pronunciation: "ng-ee-yah-bong-ah",
       },
@@ -1380,7 +1380,7 @@ const languages = {
   Ossetian: {
     spokenIn: ["South Ossetia"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Кӕмдтын",
         pronunciation: "kem-dtin",
       },
@@ -1389,7 +1389,7 @@ const languages = {
   Sinhala: {
     spokenIn: ["Sri Lanka"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ස්තුතියි",
         pronunciation: "shtoo-ti-ee",
       },
@@ -1398,7 +1398,7 @@ const languages = {
   "Swiss French": {
     spokenIn: ["Switzerland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1407,7 +1407,7 @@ const languages = {
   "Swiss German": {
     spokenIn: ["Switzerland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1416,7 +1416,7 @@ const languages = {
   "Swiss Italian": {
     spokenIn: ["Switzerland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Grazie",
         pronunciation: "grah-zee-eh",
       },
@@ -1425,7 +1425,7 @@ const languages = {
   Romansh: {
     spokenIn: ["Switzerland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Grazia",
         pronunciation: "grah-zee-ah",
       },
@@ -1434,7 +1434,7 @@ const languages = {
   Tajik: {
     spokenIn: ["Tajikistan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ташаккур",
         pronunciation: "tah-shah-kur",
       },
@@ -1443,7 +1443,7 @@ const languages = {
   Thai: {
     spokenIn: ["Thailand"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ขอบคุณ",
         pronunciation: "kohp-khun",
       },
@@ -1452,7 +1452,7 @@ const languages = {
   Tokelauan: {
     spokenIn: ["Tokelau"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Fakafetai",
         pronunciation: "fah-kah-fay-tah-ee",
       },
@@ -1461,7 +1461,7 @@ const languages = {
   Tongan: {
     spokenIn: ["Tonga"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Mālohi atu",
         pronunciation: "mah-loh-hee ah-too",
       },
@@ -1470,7 +1470,7 @@ const languages = {
   Moldovan: {
     spokenIn: ["Transnistria"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Mulțumesc",
         pronunciation: "mool-tsoo-mesh",
       },
@@ -1479,7 +1479,7 @@ const languages = {
   Ukrainian: {
     spokenIn: ["Transnistria", "Ukraine"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Дякую",
         pronunciation: "dyah-koo-yoo",
       },
@@ -1488,7 +1488,7 @@ const languages = {
   Turkmen: {
     spokenIn: ["Turkmenistan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Sag bol",
         pronunciation: "sahg bohl",
       },
@@ -1497,7 +1497,7 @@ const languages = {
   Tuvaluan: {
     spokenIn: ["Tuvalu"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Faafetai",
         pronunciation: "fah-fay-tah-ee",
       },
@@ -1506,7 +1506,7 @@ const languages = {
   "Scottish Gaelic": {
     spokenIn: ["Scotland"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Tapadh leat",
         pronunciation: "tah-pah leh",
       },
@@ -1515,7 +1515,7 @@ const languages = {
   Welsh: {
     spokenIn: ["Wales"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Diolch",
         pronunciation: "dee-olch",
       },
@@ -1524,7 +1524,7 @@ const languages = {
   Pitcairnese: {
     spokenIn: ["Pitcairn Islands"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ta'e",
         pronunciation: "tah-eh",
       },
@@ -1533,7 +1533,7 @@ const languages = {
   Jèrriais: {
     spokenIn: ["Jersey"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Merci",
         pronunciation: "mair-see",
       },
@@ -1542,7 +1542,7 @@ const languages = {
   Manx: {
     spokenIn: ["Isle of Man"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Gura mie ayd",
         pronunciation: "gur-ah mee ayd",
       },
@@ -1551,7 +1551,7 @@ const languages = {
   Uzbek: {
     spokenIn: ["Uzbekistan"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Rahmat",
         pronunciation: "rah-mat",
       },
@@ -1560,7 +1560,7 @@ const languages = {
   Latin: {
     spokenIn: ["Vatican City"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Gratias tibi ago",
         pronunciation: "grah-tee-ahs tee-bee ah-go",
       },
@@ -1569,7 +1569,7 @@ const languages = {
   Vietnamese: {
     spokenIn: ["Vietnam"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Cảm ơn",
         pronunciation: "cham-on",
       },
@@ -1578,7 +1578,7 @@ const languages = {
   Chewa: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Zikomo",
         pronunciation: "zee-koh-moh",
       },
@@ -1587,7 +1587,7 @@ const languages = {
   Chibarwe: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Matura",
         pronunciation: "mah-too-rah",
       },
@@ -1596,7 +1596,7 @@ const languages = {
   Kalanga: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Komele",
         pronunciation: "koh-meh-leh",
       },
@@ -1605,7 +1605,7 @@ const languages = {
   Khoisan: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "ǃKamagu",
         pronunciation: "kam-ah-goo",
       },
@@ -1614,7 +1614,7 @@ const languages = {
   Nambya: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Matura",
         pronunciation: "mah-too-rah",
       },
@@ -1623,7 +1623,7 @@ const languages = {
   Ndau: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Matura",
         pronunciation: "mah-too-rah",
       },
@@ -1632,7 +1632,7 @@ const languages = {
   Ndebele: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ngiyabonga",
         pronunciation: "ngi-yah-bong-ah",
       },
@@ -1641,7 +1641,7 @@ const languages = {
   Shangani: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Ngiyabonga",
         pronunciation: "ngi-yah-bong-ah",
       },
@@ -1650,7 +1650,7 @@ const languages = {
   Shona: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Matura",
         pronunciation: "mah-too-rah",
       },
@@ -1659,7 +1659,7 @@ const languages = {
   Tonga: {
     spokenIn: ["Zimbabwe"],
     translations: {
-      "thank you": {
+      thankYou: {
         literal: "Matura",
         pronunciation: "mah-too-rah",
       },
@@ -1680,11 +1680,28 @@ import {
 
 import htm from "https://cdn.skypack.dev/pin/htm@v3.1.1-pWM29AHF3JmwKPnFwyeP/mode=imports,min/optimized/htm.js";
 
+import FuzzySearch from "https://cdn.skypack.dev/pin/fuzzy-search@v3.2.1-XCeru1oqt2I8w5bXfvOK/mode=imports,min/optimized/fuzzy-search.js";
+
+const searcher = new FuzzySearch(
+  Object.entries(languages).map(([id, val]) => ({ id, ...val })),
+  ["id", "spokenIn", "translations.thankYou.literal"],
+  {
+    caseSensitive: false,
+    sort: true,
+  }
+);
+
 const html = htm.bind(h);
 
 const App = () => {
   const [letter, setLetter] = useState("A");
   const ref = useRef();
+  const main = useRef();
+
+  const [search, setSearch] = useState({
+    term: undefined,
+    results: searcher.search(""),
+  });
 
   useEffect(() => {
     if (ref.current) {
@@ -1701,6 +1718,7 @@ const App = () => {
 
   return html`
     <main
+      ref=${main}
       class="h-screen max-h-[100dvh] overflow-y-scroll snap-y snap-mandatory"
     >
       <header class="snap-start h-full flex flex-col">
@@ -1721,15 +1739,16 @@ const App = () => {
         class="snap-start h-full overflow-y-scroll snap-y snap-mandatory"
       >
         ${[...Object.keys(languages).sort()].map((language) => {
-          const literal = languages[language].translations["thank you"].literal;
+          const literal = languages[language].translations.thankYou.literal;
           const pronunciation =
-            languages[language].translations["thank you"].pronunciation;
+            languages[language].translations.thankYou.pronunciation;
           const spokenIn = languages[language].spokenIn;
           const showMaxspokenIn = 5;
 
           return html`
             <li
               data-letter=${language[0]}
+              data-language=${language}
               class="snap-center block h-full bg-white flex flex-col py-10 px-6 pt-20 border-t"
             >
               <div class="h-full flex flex-col text-center">
@@ -1757,13 +1776,27 @@ const App = () => {
                       html`
                         <span
                           class="flex gap-1 border py-0.5 pl-1.5 pr-2 rounded-full"
+                          onclick=${() => {
+                            setSearch({
+                              term: x,
+                              results: searcher.search(x),
+                            });
+                          }}
                           >${flags[x]}
                           <span class="opacity-60">${x}</span>
                         </span>
                       `
                   )}${spokenIn.length > showMaxspokenIn &&
                   html`
-                    <span class="border py-0.5 px-2 text-black/60 rounded-full">
+                    <span
+                      class="border py-0.5 px-2 text-black/60 rounded-full"
+                      onclick=${() => {
+                        setSearch({
+                          term: language,
+                          results: searcher.search(language),
+                        });
+                      }}
+                    >
                       + ${spokenIn.length - showMaxspokenIn} more countries
                     </span>
                   `}
@@ -1774,28 +1807,140 @@ const App = () => {
         })}
       </ul>
       <aside
-        class="w-full absolute top-0 flex justify-center gap-1 py-4 text-xs bg-white border-b"
+        class="w-full absolute top-0 flex gap-8 justify-center py-4 px-4 text-xs bg-white border-b"
       >
-        ${[
-          ...new Set(
-            Object.keys(languages)
-              .map((x) => x[0])
-              .sort()
-          ),
-        ].map(
-          (x) =>
-            html`<button
-              class=${x === letter ? "font-bold" : "font-light"}
+        <button
+          onclick=${() => {
+            main.current.scrollTo({ top: 0, behavior: "smooth" });
+            setSearch({ term: undefined, results: search.results });
+          }}
+        >
+          Home
+        </button>
+        <div class="flex gap-2 overflow-x-auto">
+          ${[
+            ...new Set(
+              Object.keys(languages)
+                .map((x) => x[0])
+                .sort()
+            ),
+          ].map(
+            (x) =>
+              html`
+                <button
+                  class=${x === letter ? "font-bold" : "font-light"}
+                  onclick=${() => {
+                    setLetter(x);
+                    const el = document.querySelector(`[data-letter="${x}"]`);
+                    el?.scrollIntoView();
+                  }}
+                >
+                  ${x}
+                </button>
+              `
+          )}
+        </div>
+        <button
+          onclick=${() => {
+            setSearch({ term: "", results: searcher.search(search.term) });
+          }}
+        >
+          Search
+        </button>
+      </aside>
+      <dialog
+        open=${search.term !== undefined}
+        class=${search.term !== undefined
+          ? "fixed inset-0 p-[5vmin] w-full h-full bg-white/80"
+          : "hidden"}
+      >
+        <div
+          class="bg-white border max-w-screen-sm h-full flex flex-col mx-auto rounded-lg shadow-xl"
+        >
+          <div class="flex items-center justify-between px-4 py-3 border-b">
+            <h1 class="text-sm font-light">Site Search</h1>
+            <button
+              class="text-xs font-medium"
               onclick=${() => {
-                setLetter(x);
-                const el = document.querySelector(`[data-letter="${x}"]`);
-                el?.scrollIntoView();
+                setSearch({ term: undefined, results: search.results });
               }}
             >
-              ${x}
-            </button>`
-        )}
-      </aside>
+              Close
+            </button>
+          </div>
+          <div class="flex flex-col relative min-h-0 h-full w-full pt-4 px-4">
+            <div class="relative flex items-center w-full">
+              <input
+                class="w-full text-[16px] border border-black/20 pt-3.5 pb-3 px-3 rounded-md"
+                type="text"
+                placeholder="Language country or thank you.."
+                value=${search.term}
+                oninput=${(e) => {
+                  setSearch({
+                    term: e.target.value,
+                    results: searcher.search(e.target.value),
+                  });
+                }}
+              />
+              <svg
+                class="absolute right-3 top-3.5 text-black/30 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path
+                  d="M10.25 2a8.25 8.25 0 0 1 6.34 13.53l5.69 5.69a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-5.69-5.69A8.25 8.25 0 1 1 10.25 2ZM3.5 10.25a6.75 6.75 0 1 0 13.5 0 6.75 6.75 0 0 0-13.5 0Z"
+                ></path>
+              </svg>
+            </div>
+            <ul class="flex-1 divide-y overflow-y-auto py-2">
+              ${[...search.results]
+                .sort((x) =>
+                  x.id.toLowerCase().match(search.term?.toLowerCase()) ? -1 : 1
+                )
+                .map((result) => {
+                  const showMaxspokenIn = 5;
+                  return html`
+                    <li
+                      class="py-3 px-3"
+                      onclick=${() => {
+                        setLetter(result.id[0]);
+                        const el = document.querySelector(
+                          `[data-language="${result.id}"]`
+                        );
+                        el?.scrollIntoView();
+                        setSearch({ term: undefined, results: search.results });
+                      }}
+                    >
+                      <div class="flex w-full justify-between items-center">
+                        <h2>${result.id}</h2>
+                        <h3 class="text-xs text-black/60">
+                          ${result.translations.thankYou.literal}
+                        </h3>
+                      </div>
+                      <p class="text-xs font-light text-black/60">
+                        Spoken in${" "}
+                        ${[
+                          ...result.spokenIn.filter((x) =>
+                            x.match(new RegExp(`${search.term}`, "i"))
+                          ),
+                        ]
+                          .slice(0, showMaxspokenIn)
+                          .join(", ")}${result.spokenIn.length >
+                          showMaxspokenIn &&
+                        `
+                    and ${result.spokenIn.length - showMaxspokenIn} other
+                      countries
+                  `}
+                      </p>
+                    </li>
+                  `;
+                })}
+            </ul>
+          </div>
+        </div>
+      </dialog>
     </main>
   `;
 };
