@@ -1726,8 +1726,8 @@ const App = () => {
           <span class="text-8xl">🗺</span>
           <h1 class="font-bold text-6xl">Thanks</h1>
           <p class="font-light max-w-[30ch] opacity-80">
-            Learn to express your gratitude in
-            ${" "}${Object.keys(languages).length}${" "} different languages
+            Learn to express your gratitude in<br />
+            ${Object.keys(languages).length}${" "} different languages
           </p>
         </div>
         <span class="mx-auto mb-8 uppercase font-extrabold opacity-30"
@@ -1807,15 +1807,16 @@ const App = () => {
         })}
       </ul>
       <aside
-        class="w-full absolute top-0 flex gap-8 justify-center py-4 px-4 text-xs bg-white border-b"
+        class="w-full absolute top-0 flex gap-4 justify-center py-4 px-4 text-xs bg-white border-b"
       >
         <button
+          class="text-xl w-10"
           onclick=${() => {
             main.current.scrollTo({ top: 0, behavior: "smooth" });
             setSearch({ term: undefined, results: search.results });
           }}
         >
-          Home
+          🏡
         </button>
         <div class="flex gap-2 overflow-x-auto">
           ${[
@@ -1828,7 +1829,10 @@ const App = () => {
             (x) =>
               html`
                 <button
-                  class=${x === letter ? "font-bold" : "font-light"}
+                  class=${[
+                    "flex-none",
+                    x === letter ? "font-bold" : "font-light",
+                  ].join(" ")}
                   onclick=${() => {
                     setLetter(x);
                     const el = document.querySelector(`[data-letter="${x}"]`);
@@ -1841,11 +1845,12 @@ const App = () => {
           )}
         </div>
         <button
+          class="text-xl w-10"
           onclick=${() => {
             setSearch({ term: "", results: searcher.search(search.term) });
           }}
         >
-          Search
+          🔍
         </button>
       </aside>
       <dialog
