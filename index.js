@@ -244,6 +244,10 @@ const languages = {
         literal: "Спасибо",
         pronunciation: "spah-see-boh",
       },
+      hello: {
+        literal: "Привет",
+        pronunciation: "pree-vyet",
+      },
     },
   },
   "Persian (Dari)": {
@@ -252,6 +256,10 @@ const languages = {
       thankYou: {
         literal: "تشکر",
         pronunciation: "tshah-kahr",
+      },
+      hello: {
+        literal: "سلام",
+        pronunciation: "sah-lahm",
       },
     },
   },
@@ -511,6 +519,10 @@ const languages = {
         literal: "Merci",
         pronunciation: "mair-see",
       },
+      hello: {
+        literal: "Bonjour",
+        pronunciation: "bon-zhoor",
+      },
     },
   },
   Dzongkha: {
@@ -519,6 +531,10 @@ const languages = {
       thankYou: {
         literal: "གཟུགས་རབ་",
         pronunciation: "gzu-ku rab",
+      },
+      hello: {
+        literal: "བསྐྱར་བཟང་",
+        pronunciation: "bshkyar bzang",
       },
     },
   },
@@ -1693,6 +1709,24 @@ const searcher = new FuzzySearch(
 
 const html = htm.bind(h);
 
+const HomePage = () => {
+  return html`
+    <header class="snap-start h-full flex flex-col">
+      <div class="m-auto text-center p-10 grid gap-4">
+        <span class="text-8xl">🗺</span>
+        <h1 class="font-bold text-6xl">Dankon</h1>
+        <p class="font-light max-w-[30ch] opacity-80">
+          Learn to express your gratitude in<br />
+          ${Object.keys(languages).length}${" "} different languages
+        </p>
+      </div>
+      <span class="mx-auto mb-8 uppercase font-extrabold opacity-30"
+        >Scroll Down</span
+      >
+    </header>
+  `;
+};
+
 const App = () => {
   const [letter, setLetter] = useState("A");
   const ref = useRef();
@@ -1706,37 +1740,39 @@ const App = () => {
   useEffect(() => {
     if (ref.current) {
       ref.current.onscroll = function () {
+        let current = [];
         document.querySelectorAll("[data-letter]").forEach((el) => {
-          const letter = el.querySelector("h2")?.innerText[0];
-          if (el.getBoundingClientRect().top === 0) {
-            setLetter(letter);
-          }
+          const child = el.getBoundingClientRect();
+          current.push([child.top, el]);
         });
+        current = [...current].sort(([a], [b]) => Math.abs(a) - Math.abs(b))[0];
+        setLetter(current[1].querySelector("h2")?.innerText[0]);
       };
     }
   }, [ref]);
 
   return html`
-    <main
-      ref=${main}
-      class="h-screen max-h-[100dvh] overflow-y-scroll snap-y snap-mandatory"
-    >
-      <header class="snap-start h-full flex flex-col">
-        <div class="m-auto text-center p-10 grid gap-4">
-          <span class="text-8xl">🗺</span>
-          <h1 class="font-bold text-6xl">Thanks</h1>
-          <p class="font-light max-w-[30ch] opacity-80">
-            Learn to express your gratitude in<br />
-            ${Object.keys(languages).length}${" "} different languages
-          </p>
-        </div>
-        <span class="mx-auto mb-8 uppercase font-extrabold opacity-30"
-          >Scroll Down</span
+    <main ref=${main} class="h-screen max-h-[100dvh] flex flex-col">
+      <nav
+        class="w-full flex gap-4 justify-between items-center py-4 px-4 text-xs bg-white border-b"
+      >
+        <h1
+          class="font-extrabold uppercase text-black/60 tracking-wide text-lg"
         >
-      </header>
+          Dankon
+        </h1>
+        <button
+          class="text-xl w-10"
+          onclick=${() => {
+            setSearch({ term: "", results: searcher.search(search.term) });
+          }}
+        >
+          🔍
+        </button>
+      </nav>
       <ul
         ref=${ref}
-        class="snap-start h-full overflow-y-scroll snap-y snap-mandatory"
+        class="snap-start h-full flex-1 overflow-y-scroll snap-y snap-mandatory"
       >
         ${[...Object.keys(languages).sort()].map((language) => {
           const literal = languages[language].translations.thankYou.literal;
@@ -1749,7 +1785,7 @@ const App = () => {
             <li
               data-letter=${language[0]}
               data-language=${language}
-              class="snap-center block h-full bg-white flex flex-col py-10 px-6 pt-20 border-t"
+              class="snap-center block h-full bg-white flex flex-col py-8 px-6 border-t"
             >
               <div class="h-full flex flex-col text-center">
                 <h2 class="text-xl font-medium text-black/80">${language}</h2>
@@ -1769,7 +1805,7 @@ const App = () => {
                   Spoken In
                 </h5>
                 <p
-                  class="text-xs max-w-screen-sm mx-auto leading-relaxed flex flex-wrap gap-x-1 gap-y-1.5 justify-center items-center"
+                  class="text-xs max-w-screen-sm mx-auto leading-relaxed flex flex-wrap gap-2 justify-center items-center"
                 >
                   ${spokenIn.slice(0, showMaxspokenIn).map(
                     (x) =>
@@ -1806,19 +1842,10 @@ const App = () => {
           `;
         })}
       </ul>
-      <aside
-        class="w-full absolute top-0 flex gap-4 justify-center py-4 px-4 text-xs bg-white border-b"
-      >
-        <button
-          class="text-xl w-10"
-          onclick=${() => {
-            main.current.scrollTo({ top: 0, behavior: "smooth" });
-            setSearch({ term: undefined, results: search.results });
-          }}
+      <footer class="border-t">
+        <div
+          class="h-full p-4 flex justify-center text-xs md:text-sm md:gap-1 lg:text-base lg:gap-2"
         >
-          🏡
-        </button>
-        <div class="flex gap-2 overflow-x-auto">
           ${[
             ...new Set(
               Object.keys(languages)
@@ -1830,8 +1857,8 @@ const App = () => {
               html`
                 <button
                   class=${[
-                    "flex-none",
-                    x === letter ? "font-bold" : "font-light",
+                    "w-3 flex-none tabular-nums text-black/60",
+                    x === letter ? "font-bold" : "font-extralight",
                   ].join(" ")}
                   onclick=${() => {
                     setLetter(x);
@@ -1844,15 +1871,7 @@ const App = () => {
               `
           )}
         </div>
-        <button
-          class="text-xl w-10"
-          onclick=${() => {
-            setSearch({ term: "", results: searcher.search(search.term) });
-          }}
-        >
-          🔍
-        </button>
-      </aside>
+      </footer>
       <dialog
         open=${search.term !== undefined}
         class=${search.term !== undefined
