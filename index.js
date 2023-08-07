@@ -1709,20 +1709,65 @@ const searcher = new FuzzySearch(
 
 const html = htm.bind(h);
 
+{
+  /* <div
+class="absolute inset-0 grid grid-cols-12 grid-rows-12 place-items-center scale-110 opacity-50"
+>
+${Object.values(flags)
+  .map((flag, i) => {
+    return html`<span
+      class="${`transform scale-[${100 + Math.random() * 200}%]`}"
+    >
+      ${flag}
+    </span> `;
+  })
+  .slice(0, 144)}
+<div
+  class="absolute inset-0"
+  style=${{
+    background: `radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+    )`,
+  }}
+/>
+</div> */
+}
+
+{
+  /* <span class="mx-auto mb-8 uppercase font-normal tracking-wider opacity-30"
+>Scroll Down</span
+> */
+}
+
 const HomePage = () => {
   return html`
-    <header class="snap-start h-full flex flex-col" id="homepage">
-      <div class="m-auto text-center p-10 grid gap-4">
-        <span class="text-8xl">🗺</span>
+    <header
+      class="relative snap-start h-full flex flex-col overflow-hidden"
+      id="homepage"
+      key="homepage"
+    >
+      <div
+        class="relative flex flex-col items-center m-auto text-center p-10 gap-4"
+      >
+        <svg
+          class="w-36 text-black"
+          viewBox="0 0 20 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.9668 18.1797C2.25684 18.1797 2.52051 18.083 2.87207 17.8809L7.14355 15.5781L11.8018 18.1885C12.1709 18.3906 12.5576 18.4873 12.9355 18.4873C13.3047 18.4873 13.665 18.3994 13.9902 18.2061L18.3584 15.7451C18.9648 15.4023 19.2285 14.9189 19.2285 14.251V2.44727C19.2285 1.7002 18.7803 1.25195 18.042 1.25195C17.752 1.25195 17.4883 1.36621 17.1279 1.55957L12.6982 4.02051L8.09277 1.24316C7.75879 1.0498 7.39844 0.953125 7.0293 0.953125C6.66895 0.953125 6.30859 1.04102 5.99219 1.22559L1.65039 3.69531C1.04395 4.03809 0.771484 4.50391 0.771484 5.17188V16.9932C0.771484 17.7402 1.21973 18.1797 1.9668 18.1797ZM6.35254 14.0049L2.74023 15.9912C2.67871 16.0176 2.62598 16.0439 2.58203 16.0439C2.47656 16.0439 2.42383 15.9648 2.42383 15.8418V5.62891C2.42383 5.38281 2.51172 5.22461 2.74023 5.09277L6.0625 3.16797C6.15918 3.10645 6.24707 3.0625 6.35254 3.00977V14.0049ZM8.02246 14.0488V3.2207C8.11035 3.26465 8.20703 3.31738 8.29492 3.37012L11.9775 5.59375V16.2637C11.8633 16.2021 11.749 16.1406 11.626 16.0703L8.02246 14.0488ZM13.6562 16.3867V5.42676L17.2686 3.45801C17.3125 3.43164 17.3652 3.41406 17.4092 3.41406C17.5146 3.41406 17.585 3.49316 17.585 3.60742V13.7676C17.585 14.0225 17.4971 14.1807 17.2598 14.3125L14.0605 16.167C13.9287 16.2461 13.7881 16.3252 13.6562 16.3867Z"
+            fill="#1C1C1E"
+          />
+        </svg>
         <h1 class="font-bold text-6xl">Dankon</h1>
-        <p class="font-light text-xl max-w-[30ch] opacity-80">
+        <p class="font-light text-lg sm:text-xl max-w-[30ch] opacity-80">
           Learn to express your gratitude in<br />
           ${Object.keys(languages).length}${" "} different languages
         </p>
       </div>
-      <span class="mx-auto mb-8 uppercase font-extrabold opacity-30"
-        >Scroll Down</span
-      >
     </header>
   `;
 };
@@ -1979,55 +2024,53 @@ const App = () => {
           : "hidden"}
       >
         <div
-          class="bg-white border max-w-screen-sm h-full flex flex-col mx-auto rounded-lg shadow-xl"
+          class="bg-white border max-w-screen-sm h-full flex flex-col mx-auto rounded-xl shadow-xl"
         >
-          <div class="flex items-center justify-between px-4 py-3 border-b">
-            <h1 class="text-sm font-light">Site Search</h1>
-            <button
-              class="text-xs font-medium"
-              onclick=${() => {
-                setSearch({ term: undefined, results: search.results });
-              }}
-            >
-              Close
-            </button>
-          </div>
-          <div class="flex flex-col relative min-h-0 h-full w-full pt-4 px-4">
-            <div class="relative flex items-center w-full">
-              <input
-                class="w-full text-[16px] border border-black/20 pt-3.5 pb-3 px-3 rounded-md"
-                type="text"
-                placeholder="Language country or thank you.."
-                value=${search.term}
-                oninput=${(e) => {
-                  setSearch({
-                    term: e.target.value,
-                    results: searcher.search(e.target.value),
-                  });
-                }}
-              />
-              <svg
-                class="absolute right-3 top-3.5 text-black/30 fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-              >
-                <path
-                  d="M10.25 2a8.25 8.25 0 0 1 6.34 13.53l5.69 5.69a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-5.69-5.69A8.25 8.25 0 1 1 10.25 2ZM3.5 10.25a6.75 6.75 0 1 0 13.5 0 6.75 6.75 0 0 0-13.5 0Z"
-                ></path>
-              </svg>
+          <div class="flex flex-col relative min-h-0 h-full w-full">
+            <div class="flex items-center gap-3">
+              <div class="relative flex items-center w-full">
+                <input
+                  class="w-full text-lg border border-black/20 px-4 py-3 pb-3.5 rounded-md scale-105 shadow-lg placeholder-neutral-400"
+                  type="text"
+                  placeholder="Search Dankon..."
+                  value=${search.term}
+                  oninput=${(e) => {
+                    setSearch({
+                      term: e.target.value,
+                      results: searcher.search(e.target.value),
+                    });
+                  }}
+                />
+
+                <svg
+                  class="absolute right-2 w-8 text-black/30 fill-current"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.5322 19.0332C13.9297 19.0332 15.2393 18.6113 16.3291 17.8906L20.1787 21.749C20.4336 21.9951 20.7588 22.1182 21.1104 22.1182C21.8398 22.1182 22.376 21.5469 22.376 20.8262C22.376 20.4922 22.2617 20.167 22.0156 19.9209L18.1924 16.0801C18.9834 14.9551 19.4492 13.5928 19.4492 12.1162C19.4492 8.31055 16.3379 5.19922 12.5322 5.19922C8.73535 5.19922 5.61523 8.31055 5.61523 12.1162C5.61523 15.9219 8.72656 19.0332 12.5322 19.0332ZM12.5322 17.1875C9.74609 17.1875 7.46094 14.9023 7.46094 12.1162C7.46094 9.33008 9.74609 7.04492 12.5322 7.04492C15.3184 7.04492 17.6035 9.33008 17.6035 12.1162C17.6035 14.9023 15.3184 17.1875 12.5322 17.1875Z"
+                    fill="#1C1C1E"
+                  />
+                </svg>
+              </div>
             </div>
-            <ul class="flex-1 divide-y overflow-y-auto py-2">
+            <ul class="flex-1 divide-y overflow-y-auto py-[1vmin]">
               ${[...search.results]
-                .sort((x) =>
-                  x.id.toLowerCase().match(search.term?.toLowerCase()) ? -1 : 1
+                .sort((x, y) =>
+                  (
+                    search.term
+                      ? x.id.toLowerCase().match(search.term?.toLowerCase())
+                      : x.id < y.id
+                  )
+                    ? -1
+                    : 1
                 )
                 .map((result) => {
                   const showMaxspokenIn = 5;
                   return html`
                     <li
-                      class="py-3 px-3"
+                      class="py-[3vmin] px-[4vmin]"
                       onclick=${() => {
                         setLetter(result.id[0]);
                         const el = document.querySelector(
@@ -2067,6 +2110,14 @@ const App = () => {
                   `;
                 })}
             </ul>
+            <button
+              class="w-full text-black p-4 border-t-2 bg-white rounded-b-xl text-xs uppercase text-neutral-400 font-semibold tracking-wider"
+              onclick=${() => {
+                setSearch({ term: undefined, results: search.results });
+              }}
+            >
+              <span>Close Search</span>
+            </button>
           </div>
         </div>
       </dialog>
