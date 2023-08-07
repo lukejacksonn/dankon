@@ -1920,7 +1920,12 @@ const App = () => {
           `;
         })}
       </ul>
-      <footer class="border-t">
+      <footer
+        class="${window.matchMedia("(display-mode: standalone)").matches &&
+        !!navigator.platform.match(/iPhone|iPod|iPad/)
+          ? `border-t pb-3`
+          : "border-t"}"
+      >
         <div
           class="h-full p-4 flex gap-3 text-xs md:text-sm md:gap-1 lg:text-base lg:gap-2 overflow-x-scroll"
         >
@@ -2000,7 +2005,7 @@ const App = () => {
                 <button
                   data-letter-button=${x}
                   class=${[
-                    "w-10 h-10 rounded-full border flex-none tabular-nums text-black/60",
+                    "w-10 h-10 rounded-full border border-black flex-none tabular-nums text-black",
                     x === letter
                       ? "font-bold bg-black text-white scale-110 border-transparent"
                       : "font-normal",
