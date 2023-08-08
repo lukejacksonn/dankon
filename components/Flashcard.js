@@ -20,12 +20,13 @@ export const Flashcard =
         onTouchEnd=${() => testMode && setReveal(false)}
         onMouseDown=${() => testMode && setReveal(true)}
         onMouseUp=${() => testMode && setReveal(false)}
-        class="snap-center block h-full bg-white flex flex-col py-8 px-6 ${testMode &&
+        class="relative snap-center block h-full bg-white flex flex-col py-8 px-6 ${testMode &&
         "select-none"}"
         onContextMenu=${(e) => {
           if (testMode) e.preventDefault();
         }}
       >
+        <a href="#${language}" class="absolute top-0 left-0 w-full h-full"></a>
         <div class="h-full flex flex-col text-center">
           <h2 class="text-xl font-medium text-black/80">${language}</h2>
           <div class="my-auto flex flex-col items-center">

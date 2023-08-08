@@ -3,7 +3,7 @@ import { html } from "../index.js";
 export const TestButton = ({ testMode, setTestMode }) => {
   return html`
     <button
-      class="w-10 h-10 p-1 rounded-full flex-none text-black mr-3"
+      class="w-10 h-10 p-1 rounded-full flex-none text-black mr-2"
       onclick=${() => setTestMode(!testMode)}
     >
       ${testMode

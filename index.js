@@ -58,10 +58,16 @@ const App = () => {
         });
         current = [...current].sort(([a], [b]) => Math.abs(a) - Math.abs(b))[0];
 
-        const letter = current[1].querySelector("h2")?.innerText[0];
+        const language = current[1].querySelector("h2")?.innerText;
+        const letter = language[0];
         setLetter(letter);
 
-        if (ref.current.scrollTop === 0) setLetter("homepage");
+        location.hash = language;
+
+        if (ref.current.scrollTop === 0 && letter !== "homepage") {
+          setLetter("homepage");
+          location.hash = "";
+        }
       };
     }
   }, [ref]);
@@ -81,6 +87,15 @@ const App = () => {
     }
   }, [testMode]);
 
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(
+        `[data-language="${decodeURI(location.hash.slice(1))}"]`
+      );
+      el?.scrollIntoView();
+    }
+  }, []);
+
   return html`
     <main ref=${main} class="h-screen max-h-[100dvh] flex flex-col">
       <ul
@@ -93,9 +108,7 @@ const App = () => {
         )}
       </ul>
       <footer class="${standaloneOnIos ? `border-t pb-3` : "border-t"}">
-        <div
-          class="h-full p-4 flex gap-3 text-xs md:text-sm md:gap-1 lg:text-base lg:gap-2 overflow-x-scroll"
-        >
+        <div class="h-full p-4 flex gap-3 overflow-x-scroll">
           <${HomeButton} />
           <${SearchButton} search=${search} setSearch=${setSearch} />
           <${TestButton} testMode=${testMode} setTestMode=${setTestMode} />

@@ -15,7 +15,7 @@ export const SearchModal = ({ search, setSearch, setLetter, testMode }) => {
           <div class="flex items-center gap-3">
             <div class="relative flex items-center w-full">
               <input
-                class="w-full text-lg border border-black/20 px-4 py-3 pb-3.5 rounded-md scale-105 shadow-lg placeholder-neutral-400"
+                class="w-full text-lg border border-black/20 px-4 py-3 pb-3.5 rounded-md scale-105 shadow-lg placeholder-neutral-400 pr-12"
                 type="text"
                 placeholder="Search Dankon..."
                 value=${search.term}
