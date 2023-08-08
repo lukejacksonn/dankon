@@ -227,6 +227,7 @@ const languages = {
         pronunciation: "yee-tah-boo",
       },
     },
+    voice: "ru-RU",
   },
   Russian: {
     spokenIn: [
@@ -249,6 +250,7 @@ const languages = {
         pronunciation: "pree-vyet",
       },
     },
+    voice: "ru-RU",
   },
   "Persian (Dari)": {
     spokenIn: ["Afghanistan"],
@@ -262,6 +264,7 @@ const languages = {
         pronunciation: "sah-lahm",
       },
     },
+    voice: "ar-SA",
   },
   Pashto: {
     spokenIn: ["Afghanistan"],
@@ -271,6 +274,7 @@ const languages = {
         pronunciation: "shah-kahr-ohn-ah",
       },
     },
+    voice: "ar-SA",
   },
   Albanian: {
     spokenIn: ["Albania", "Kosovo", "North Macedonia"],
@@ -280,6 +284,7 @@ const languages = {
         pronunciation: "fah-leh-meen-deh-reet",
       },
     },
+    voice: "it-IT",
   },
   Arabic: {
     spokenIn: [
@@ -314,6 +319,7 @@ const languages = {
         pronunciation: "shah-kahr-ah",
       },
     },
+    voice: "ar-SA",
   },
   Tamazight: {
     spokenIn: ["Algeria", "Morocco", "Sahrawi Arab Democratic Republic"],
@@ -323,6 +329,7 @@ const languages = {
         pronunciation: "tah-sehm-dahht",
       },
     },
+    voice: "ar-SA",
   },
   Catalan: {
     spokenIn: ["Andorra"],
@@ -332,6 +339,7 @@ const languages = {
         pronunciation: "grah-see-ah",
       },
     },
+    voice: "es-ES",
   },
   Portuguese: {
     spokenIn: [
@@ -351,6 +359,7 @@ const languages = {
         pronunciation: "oh-bree-gah-doh",
       },
     },
+    voice: "pt-PT",
   },
   Armenian: {
     spokenIn: ["Armenia", "Artsakh"],
@@ -358,8 +367,10 @@ const languages = {
       thankYou: {
         literal: "Շնորհակալություն",
         pronunciation: "shnohr-hah-kah-loo-tsoo-ee-yoon",
+        spoken: "shnor-hah-kah-loo-tsoo-ee-yoon",
       },
     },
+    voice: "ru-RU",
   },
   German: {
     spokenIn: ["Austria", "Belgium", "Germany", "Liechtenstein", "Luxembourg"],
@@ -369,6 +380,7 @@ const languages = {
         pronunciation: "dahn-kah",
       },
     },
+    voice: "de-DE",
   },
   Azerbaijani: {
     spokenIn: ["Azerbaijan"],
@@ -378,6 +390,7 @@ const languages = {
         pronunciation: "tah-shah-khoo-er eh-dee-rehm",
       },
     },
+    voice: "tr-TR",
   },
   English: {
     spokenIn: [
@@ -454,6 +467,7 @@ const languages = {
         pronunciation: "thahngk yoo",
       },
     },
+    voice: "en-GB",
   },
   Bengali: {
     spokenIn: ["Bangladesh"],
@@ -461,8 +475,10 @@ const languages = {
       thankYou: {
         literal: "ধন্যবাদ",
         pronunciation: "dahn-yah-bahd",
+        spoken: "dahn-yah-bahd",
       },
     },
+    voice: "en-IN",
   },
   Belarusian: {
     spokenIn: ["Belarus"],
@@ -472,6 +488,7 @@ const languages = {
         pronunciation: "dzyah-koo-yoo",
       },
     },
+    voice: "ru-RU",
   },
   Dutch: {
     spokenIn: ["Belgium", "Netherlands", "Suriname"],
@@ -481,6 +498,7 @@ const languages = {
         pronunciation: "dahnk yeh",
       },
     },
+    voice: "nl-BE",
   },
   French: {
     spokenIn: [
@@ -524,6 +542,7 @@ const languages = {
         pronunciation: "bon-zhoor",
       },
     },
+    voice: "fr-CA",
   },
   Dzongkha: {
     spokenIn: ["Bhutan"],
@@ -531,12 +550,14 @@ const languages = {
       thankYou: {
         literal: "གཟུགས་རབ་",
         pronunciation: "gzu-ku rab",
+        spoken: "gzu-ku rab",
       },
       hello: {
         literal: "བསྐྱར་བཟང་",
         pronunciation: "bshkyar bzang",
       },
     },
+    voice: "ar-SA",
   },
   Aymara: {
     spokenIn: ["Bolivia", "Peru"],
@@ -546,6 +567,7 @@ const languages = {
         pronunciation: "ahn-ah-rah-kee",
       },
     },
+    voice: "es-AR",
   },
   Chiquitano: {
     spokenIn: ["Bolivia"],
@@ -555,6 +577,7 @@ const languages = {
         pronunciation: "poo-pah",
       },
     },
+    voice: "es-AR",
   },
   Guaraní: {
     spokenIn: ["Bolivia", "Paraguay"],
@@ -564,6 +587,7 @@ const languages = {
         pronunciation: "ah-goo-ee-hey",
       },
     },
+    voice: "es-AR",
   },
   Quechua: {
     spokenIn: ["Bolivia", "Ecuador", "Peru"],
@@ -573,6 +597,7 @@ const languages = {
         pronunciation: "ah-lee-yahn-chu",
       },
     },
+    voice: "es-AR",
   },
   Bosnian: {
     spokenIn: ["Bosnia and Herzegovina"],
@@ -582,6 +607,7 @@ const languages = {
         pronunciation: "hval-ah",
       },
     },
+    voice: "it-IT",
   },
   Malay: {
     spokenIn: ["Brunei", "Christmas Island", "Malaysia", "Singapore"],
@@ -591,6 +617,7 @@ const languages = {
         pronunciation: "tay-ree-mah kah-see",
       },
     },
+    voice: "id-ID",
   },
   Bulgarian: {
     spokenIn: ["Bulgaria"],
@@ -600,6 +627,7 @@ const languages = {
         pronunciation: "blah-goh-dah-ryah",
       },
     },
+    voice: "ru-RU",
   },
   Kirundi: {
     spokenIn: ["Burundi"],
@@ -609,6 +637,7 @@ const languages = {
         pronunciation: "moo-rah-koh-zay",
       },
     },
+    voice: "fr-CA",
   },
   Khmer: {
     spokenIn: ["Cambodia"],
@@ -616,8 +645,10 @@ const languages = {
       thankYou: {
         literal: "អរគុណ",
         pronunciation: "aw-koon",
+        spoken: "aw-koon",
       },
     },
+    voice: "th-TH",
   },
   Sango: {
     spokenIn: ["Central African Republic"],
@@ -627,6 +658,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "fr-CA",
   },
   Mandarin: {
     spokenIn: ["China", "Christmas Island", "Singapore", "Taiwan"],
@@ -636,6 +668,7 @@ const languages = {
         pronunciation: "see-ye see-ye",
       },
     },
+    voice: "zh-CN",
   },
   Cantonese: {
     spokenIn: ["China", "Vietnam", "Malaysia"],
@@ -645,6 +678,7 @@ const languages = {
         pronunciation: "doh-je",
       },
     },
+    voice: "zh-TW",
   },
   Spanish: {
     spokenIn: [
@@ -676,6 +710,7 @@ const languages = {
         pronunciation: "grah-see-ass",
       },
     },
+    voice: "es-ES",
   },
   Comorian: {
     spokenIn: ["Comoros"],
@@ -685,6 +720,7 @@ const languages = {
         pronunciation: "mah-rah-hah-bah",
       },
     },
+    voice: "fr-CA",
   },
   Croatian: {
     spokenIn: ["Croatia", "Bosnia and Herzegovina"],
@@ -694,6 +730,7 @@ const languages = {
         pronunciation: "hval-ah",
       },
     },
+    voice: "it-IT",
   },
   Greek: {
     spokenIn: ["Greece", "Cyprus"],
@@ -703,6 +740,7 @@ const languages = {
         pronunciation: "eff-khar-ee-stoh",
       },
     },
+    voice: "el-GR",
   },
   Turkish: {
     spokenIn: ["Cyprus", "Northern Cyprus", "Turkey"],
@@ -712,6 +750,7 @@ const languages = {
         pronunciation: "teh-shay-kur eh-deh-ree-m",
       },
     },
+    voice: "tr-TR",
   },
   Czech: {
     spokenIn: ["Czech Republic"],
@@ -721,6 +760,7 @@ const languages = {
         pronunciation: "day-koo-ee",
       },
     },
+    voice: "cs-CZ",
   },
   Slovak: {
     spokenIn: ["Czech Republic", "Slovakia"],
@@ -730,6 +770,7 @@ const languages = {
         pronunciation: "dah-koo-yehm",
       },
     },
+    voice: "sk-SK",
   },
   Danish: {
     spokenIn: ["Denmark"],
@@ -739,6 +780,7 @@ const languages = {
         pronunciation: "tahk",
       },
     },
+    voice: "da-DK",
   },
   Tetum: {
     spokenIn: ["East Timor"],
@@ -748,6 +790,7 @@ const languages = {
         pronunciation: "oh-bree-gah-doo",
       },
     },
+    voice: "pt-PT",
   },
   Tigrinya: {
     spokenIn: ["Eritrea", "Ethiopia"],
@@ -755,8 +798,10 @@ const languages = {
       thankYou: {
         literal: "እናቴ",
         pronunciation: "eh-nah-teh",
+        spoken: "§eh-nah-teh",
       },
     },
+    voice: "ar-SA",
   },
   Estonian: {
     spokenIn: ["Estonia"],
@@ -766,6 +811,7 @@ const languages = {
         pronunciation: "eye-tah",
       },
     },
+    voice: "fi-FI",
   },
   Swazi: {
     spokenIn: ["Eswatini", "South Africa"],
@@ -775,6 +821,7 @@ const languages = {
         pronunciation: "eng-ee-ah-bong-ah",
       },
     },
+    voice: "en-ZA",
   },
   Afar: {
     spokenIn: ["Ethiopia"],
@@ -784,6 +831,7 @@ const languages = {
         pronunciation: "mah-hah-d-sah-nee-d",
       },
     },
+    voice: "ar-SA",
   },
   Amharic: {
     spokenIn: ["Ethiopia"],
@@ -791,8 +839,10 @@ const languages = {
       thankYou: {
         literal: "አመሰግናለሁ",
         pronunciation: "ah-meh-sah-gnah-lay-hoo",
+        spoken: "ah-meh-sah-gnah-lay-hoo",
       },
     },
+    voice: "ar-SA",
   },
   Oromo: {
     spokenIn: ["Ethiopia"],
@@ -802,6 +852,7 @@ const languages = {
         pronunciation: "wah-mee-chah",
       },
     },
+    voice: "ar-SA",
   },
   Somali: {
     spokenIn: ["Ethiopia", "Somaliland"],
@@ -811,6 +862,7 @@ const languages = {
         pronunciation: "mah-hah-d-sah-nee-d",
       },
     },
+    voice: "ar-SA",
   },
   Fijian: {
     spokenIn: ["Fiji"],
@@ -820,6 +872,7 @@ const languages = {
         pronunciation: "vee-nah-kah",
       },
     },
+    voice: "en-AU",
   },
   "Fiji Hindi": {
     spokenIn: ["Fiji"],
@@ -827,8 +880,10 @@ const languages = {
       thankYou: {
         literal: "Dhanyavaad",
         pronunciation: "dhan-yah-vahd",
+        spoken: "§dhan-yah-vahd",
       },
     },
+    voice: "hi-IN",
   },
   Finnish: {
     spokenIn: ["Finland"],
@@ -838,6 +893,7 @@ const languages = {
         pronunciation: "kee-tohs",
       },
     },
+    voice: "fi-FI",
   },
   Swedish: {
     spokenIn: ["Finland", "Sweden"],
@@ -847,6 +903,7 @@ const languages = {
         pronunciation: "tahk",
       },
     },
+    voice: "sv-SE",
   },
   Georgian: {
     spokenIn: ["Georgia"],
@@ -854,8 +911,10 @@ const languages = {
       thankYou: {
         literal: "მადლობა",
         pronunciation: "mah-dloh-bah",
+        spoken: "mah-dloh-bah",
       },
     },
+    voice: "ru-RU",
   },
   "Haitian Creole": {
     spokenIn: ["Haiti"],
@@ -865,6 +924,7 @@ const languages = {
         pronunciation: "meh-see",
       },
     },
+    voice: "fr-CA",
   },
   Hungarian: {
     spokenIn: ["Hungary"],
@@ -874,6 +934,7 @@ const languages = {
         pronunciation: "koh-sho-nohm",
       },
     },
+    voice: "hu-HU",
   },
   Icelandic: {
     spokenIn: ["Iceland"],
@@ -883,6 +944,7 @@ const languages = {
         pronunciation: "tahk",
       },
     },
+    voice: "sv-SE",
   },
   Hindi: {
     spokenIn: ["India"],
@@ -892,6 +954,7 @@ const languages = {
         pronunciation: "dhan-yah-vahd",
       },
     },
+    voice: "hi-IN",
   },
   Indonesian: {
     spokenIn: ["Indonesia"],
@@ -901,6 +964,7 @@ const languages = {
         pronunciation: "tay-ree-mah kah-see",
       },
     },
+    voice: "id-ID",
   },
   Persian: {
     spokenIn: ["Iran"],
@@ -910,6 +974,7 @@ const languages = {
         pronunciation: "meh-tah-shah-kah-rahm",
       },
     },
+    voice: "ar-SA",
   },
   Kurdish: {
     spokenIn: ["Iraq"],
@@ -919,6 +984,7 @@ const languages = {
         pronunciation: "spahs",
       },
     },
+    voice: "tr-TR",
   },
   Irish: {
     spokenIn: ["Ireland"],
@@ -928,6 +994,7 @@ const languages = {
         pronunciation: "goh ree-vah mah-ah-gah",
       },
     },
+    voice: "en-IE",
   },
   Hebrew: {
     spokenIn: ["Israel"],
@@ -937,6 +1004,7 @@ const languages = {
         pronunciation: "toh-dah",
       },
     },
+    voice: "he-IL",
   },
   Italian: {
     spokenIn: [
@@ -951,6 +1019,7 @@ const languages = {
         pronunciation: "grah-zee-eh",
       },
     },
+    voice: "it-IT",
   },
   Japanese: {
     spokenIn: ["Japan"],
@@ -960,6 +1029,7 @@ const languages = {
         pronunciation: "arigatou gozaimasu",
       },
     },
+    voice: "ja-JP",
   },
   Kazakh: {
     spokenIn: ["Kazakhstan"],
@@ -969,6 +1039,7 @@ const languages = {
         pronunciation: "rah-met",
       },
     },
+    voice: "ru-RU",
   },
   Swahili: {
     spokenIn: ["Kenya", "Rwanda", "Tanzania", "Uganda"],
@@ -978,6 +1049,7 @@ const languages = {
         pronunciation: "ah-sahn-teh",
       },
     },
+    voice: "en-US",
   },
   Korean: {
     spokenIn: ["North Korea", "South Korea"],
@@ -987,6 +1059,7 @@ const languages = {
         pronunciation: "gam-sah-ham-ni-da",
       },
     },
+    voice: "ko-KR",
   },
   Serbian: {
     spokenIn: ["Kosovo", "Serbia", "Bosnia and Herzegovina"],
@@ -994,8 +1067,10 @@ const languages = {
       thankYou: {
         literal: "Хвала",
         pronunciation: "khvah-lah",
+        spoken: "khvah-lah",
       },
     },
+    voice: "it-IT",
   },
   "Standard Arabic": {
     spokenIn: ["Kuwait"],
@@ -1005,6 +1080,7 @@ const languages = {
         pronunciation: "shukran",
       },
     },
+    voice: "ar-SA",
   },
   Kyrgyz: {
     spokenIn: ["Kyrgyzstan"],
@@ -1014,6 +1090,7 @@ const languages = {
         pronunciation: "rah-mat",
       },
     },
+    voice: "ru-RU",
   },
   Lao: {
     spokenIn: ["Laos"],
@@ -1021,8 +1098,10 @@ const languages = {
       thankYou: {
         literal: "ຂອບໃຈ",
         pronunciation: "kho-bhajai",
+        spoken: "kho-bhajai",
       },
     },
+    voice: "th-TH",
   },
   Latvian: {
     spokenIn: ["Latvia"],
@@ -1032,6 +1111,7 @@ const languages = {
         pronunciation: "pahl-dees",
       },
     },
+    voice: "ru-RU",
   },
   Sotho: {
     spokenIn: ["Lesotho", "South Africa", "Zimbabwe"],
@@ -1041,6 +1121,7 @@ const languages = {
         pronunciation: "keh ah leh-boh-gah",
       },
     },
+    voice: "en-ZA",
   },
   Lithuanian: {
     spokenIn: ["Lithuania"],
@@ -1050,6 +1131,7 @@ const languages = {
         pronunciation: "ah-chee-oo",
       },
     },
+    voice: "ru-RU",
   },
   Luxembourgish: {
     spokenIn: ["Luxembourg"],
@@ -1059,6 +1141,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "de-DE",
   },
   Malagasy: {
     spokenIn: ["Madagascar"],
@@ -1068,6 +1151,7 @@ const languages = {
         pronunciation: "mee-sah-oh-tra",
       },
     },
+    voice: "fr-CA",
   },
   Chichewa: {
     spokenIn: ["Malawi"],
@@ -1077,6 +1161,7 @@ const languages = {
         pronunciation: "zee-koh-moh",
       },
     },
+    voice: "en-ZA",
   },
   Dhivehi: {
     spokenIn: ["Maldives"],
@@ -1084,8 +1169,10 @@ const languages = {
       thankYou: {
         literal: "Kuɗi aadhamin",
         pronunciation: "koo-dee ah-dah-meen",
+        spoken: "koo-dee ah-dah-meen",
       },
     },
+    voice: "hi-IN",
   },
   Maltese: {
     spokenIn: ["Malta"],
@@ -1095,6 +1182,7 @@ const languages = {
         pronunciation: "grah-zee",
       },
     },
+    voice: "it-IT",
   },
   "Mauritian Creole (Morisien)": {
     spokenIn: ["Mauritius"],
@@ -1104,6 +1192,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "fr-CA",
   },
   Romanian: {
     spokenIn: ["Moldova", "Romania"],
@@ -1113,6 +1202,7 @@ const languages = {
         pronunciation: "mool-tsoo-mesh",
       },
     },
+    voice: "ro-RO",
   },
   Mongolian: {
     spokenIn: ["Mongolia"],
@@ -1122,6 +1212,7 @@ const languages = {
         pronunciation: "bay-arl-ah-ah",
       },
     },
+    voice: "ru-RU",
   },
   Montenegrin: {
     spokenIn: ["Montenegro"],
@@ -1131,6 +1222,7 @@ const languages = {
         pronunciation: "hval-ah",
       },
     },
+    voice: "it-IT",
   },
   Burmese: {
     spokenIn: ["Myanmar (Burma)"],
@@ -1138,8 +1230,10 @@ const languages = {
       thankYou: {
         literal: "ကြယ်ပါတယ်",
         pronunciation: "kya-pa-ta",
+        spoken: "kya-pa-ta",
       },
     },
+    voice: "th-TH",
   },
   Nauruan: {
     spokenIn: ["Nauru"],
@@ -1149,6 +1243,7 @@ const languages = {
         pronunciation: "ah-ree-goo",
       },
     },
+    voice: "en-US",
   },
   Nepali: {
     spokenIn: ["Nepal"],
@@ -1158,6 +1253,7 @@ const languages = {
         pronunciation: "dhanyavaad",
       },
     },
+    voice: "hi-IN",
   },
   Frisian: {
     spokenIn: ["Netherlands"],
@@ -1167,6 +1263,7 @@ const languages = {
         pronunciation: "tahnk yoh",
       },
     },
+    voice: "nl-BE",
   },
   "Māori language": {
     spokenIn: ["New Zealand"],
@@ -1176,6 +1273,7 @@ const languages = {
         pronunciation: "kee-ah-oh-rah",
       },
     },
+    voice: "en-NZ",
   },
   Niuean: {
     spokenIn: ["Niue"],
@@ -1185,6 +1283,7 @@ const languages = {
         pronunciation: "fah-kah-oh-ah-lah-hee",
       },
     },
+    voice: "en-NZ",
   },
   Norfuk: {
     spokenIn: ["Norfolk Island"],
@@ -1194,6 +1293,7 @@ const languages = {
         pronunciation: "tahnk-yoo",
       },
     },
+    voice: "en-NZ",
   },
   Macedonian: {
     spokenIn: ["North Macedonia"],
@@ -1201,8 +1301,10 @@ const languages = {
       thankYou: {
         literal: "Благодарам",
         pronunciation: "blah-goh-dah-rahm",
+        spoken: "blah-goh-dah-rahm",
       },
     },
+    voice: "it-IT",
   },
   Norwegian: {
     spokenIn: ["Norway"],
@@ -1212,6 +1314,7 @@ const languages = {
         pronunciation: "tahk",
       },
     },
+    voice: "nb-NO",
   },
   Sami: {
     spokenIn: ["Norway"],
@@ -1221,6 +1324,7 @@ const languages = {
         pronunciation: "gahv-nah",
       },
     },
+    voice: "sv-SE",
   },
   Urdu: {
     spokenIn: ["Pakistan"],
@@ -1228,8 +1332,10 @@ const languages = {
       thankYou: {
         literal: "شکریہ",
         pronunciation: "shukriya",
+        spoken: "shukriya",
       },
     },
+    voice: "hi-IN",
   },
   Palauan: {
     spokenIn: ["Palau"],
@@ -1239,6 +1345,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "fr-FR",
   },
   "Hiri Motu": {
     spokenIn: ["Papua New Guinea"],
@@ -1248,6 +1355,7 @@ const languages = {
         pronunciation: "too-goo-rah-kee",
       },
     },
+    voice: "en-ZA",
   },
   "Tok Pisin": {
     spokenIn: ["Papua New Guinea"],
@@ -1257,6 +1365,7 @@ const languages = {
         pronunciation: "ten-kee-oo",
       },
     },
+    voice: "en-US",
   },
   Asháninka: {
     spokenIn: ["Peru"],
@@ -1266,6 +1375,7 @@ const languages = {
         pronunciation: "nah-ee-chee",
       },
     },
+    voice: "es-AR",
   },
   Tagalog: {
     spokenIn: ["Philippines"],
@@ -1275,6 +1385,7 @@ const languages = {
         pronunciation: "sah-lah-mah",
       },
     },
+    voice: "es-ES",
   },
   Polish: {
     spokenIn: ["Poland"],
@@ -1284,6 +1395,7 @@ const languages = {
         pronunciation: "jeh-ku-yeh",
       },
     },
+    voice: "pl-PL",
   },
   Kinyarwanda: {
     spokenIn: ["Rwanda"],
@@ -1293,6 +1405,7 @@ const languages = {
         pronunciation: "moo-rah-koh-zeh",
       },
     },
+    voice: "fr-CA",
   },
   "Seychellois Creole": {
     spokenIn: ["Seychelles"],
@@ -1302,6 +1415,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "fr-CA",
   },
   Tamil: {
     spokenIn: ["Singapore", "Sri Lanka"],
@@ -1309,8 +1423,10 @@ const languages = {
       thankYou: {
         literal: "நன்றி",
         pronunciation: "nah-nree",
+        spoken: "nah-nree",
       },
     },
+    voice: "hi-IN",
   },
   Slovene: {
     spokenIn: ["Slovenia"],
@@ -1320,6 +1436,7 @@ const languages = {
         pronunciation: "hval-ah",
       },
     },
+    voice: "it-IT",
   },
   Afrikaans: {
     spokenIn: ["South Africa"],
@@ -1329,6 +1446,7 @@ const languages = {
         pronunciation: "dahn-kee",
       },
     },
+    voice: "nl-NL",
   },
   "Southern Ndebele": {
     spokenIn: ["South Africa"],
@@ -1338,6 +1456,7 @@ const languages = {
         pronunciation: "ng-ee-yah-bong-ah",
       },
     },
+    voice: "en-ZA",
   },
   "Northern Sotho": {
     spokenIn: ["South Africa"],
@@ -1347,6 +1466,7 @@ const languages = {
         pronunciation: "keh ah leh-boh-gah",
       },
     },
+    voice: "en-ZA",
   },
   Tsonga: {
     spokenIn: ["South Africa"],
@@ -1356,6 +1476,7 @@ const languages = {
         pronunciation: "ndzee kohm-bell-ah",
       },
     },
+    voice: "en-ZA",
   },
   Tswana: {
     spokenIn: ["South Africa", "Zimbabwe"],
@@ -1365,6 +1486,7 @@ const languages = {
         pronunciation: "keh ah leh-boh-gah",
       },
     },
+    voice: "en-ZA",
   },
   Venda: {
     spokenIn: ["South Africa", "Zimbabwe"],
@@ -1374,6 +1496,7 @@ const languages = {
         pronunciation: "nd-ah",
       },
     },
+    voice: "en-ZA",
   },
   Xhosa: {
     spokenIn: ["South Africa", "Zimbabwe"],
@@ -1383,6 +1506,7 @@ const languages = {
         pronunciation: "en-koh-see",
       },
     },
+    voice: "en-ZA",
   },
   Zulu: {
     spokenIn: ["South Africa"],
@@ -1392,6 +1516,7 @@ const languages = {
         pronunciation: "ng-ee-yah-bong-ah",
       },
     },
+    voice: "en-ZA",
   },
   Ossetian: {
     spokenIn: ["South Ossetia"],
@@ -1401,6 +1526,7 @@ const languages = {
         pronunciation: "kem-dtin",
       },
     },
+    voice: "ru-RU",
   },
   Sinhala: {
     spokenIn: ["Sri Lanka"],
@@ -1408,8 +1534,10 @@ const languages = {
       thankYou: {
         literal: "ස්තුතියි",
         pronunciation: "shtoo-ti-ee",
+        spoken: "shtoo-tie",
       },
     },
+    voice: "hi-IN",
   },
   "Swiss French": {
     spokenIn: ["Switzerland"],
@@ -1419,6 +1547,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "fr-CH",
   },
   "Swiss German": {
     spokenIn: ["Switzerland"],
@@ -1428,6 +1557,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "de-CH",
   },
   "Swiss Italian": {
     spokenIn: ["Switzerland"],
@@ -1437,6 +1567,7 @@ const languages = {
         pronunciation: "grah-zee-eh",
       },
     },
+    voice: "it-CH",
   },
   Romansh: {
     spokenIn: ["Switzerland"],
@@ -1446,6 +1577,7 @@ const languages = {
         pronunciation: "grah-zee-ah",
       },
     },
+    voice: "it-CH",
   },
   Tajik: {
     spokenIn: ["Tajikistan"],
@@ -1455,6 +1587,7 @@ const languages = {
         pronunciation: "tah-shah-kur",
       },
     },
+    voice: "ru-RU",
   },
   Thai: {
     spokenIn: ["Thailand"],
@@ -1464,6 +1597,7 @@ const languages = {
         pronunciation: "kohp-khun",
       },
     },
+    voice: "th-TH",
   },
   Tokelauan: {
     spokenIn: ["Tokelau"],
@@ -1473,6 +1607,7 @@ const languages = {
         pronunciation: "fah-kah-fay-tah-ee",
       },
     },
+    voice: "en-NZ",
   },
   Tongan: {
     spokenIn: ["Tonga"],
@@ -1482,6 +1617,7 @@ const languages = {
         pronunciation: "mah-loh-hee ah-too",
       },
     },
+    voice: "en-NZ",
   },
   Moldovan: {
     spokenIn: ["Transnistria"],
@@ -1491,6 +1627,7 @@ const languages = {
         pronunciation: "mool-tsoo-mesh",
       },
     },
+    voice: "ro-RO",
   },
   Ukrainian: {
     spokenIn: ["Transnistria", "Ukraine"],
@@ -1500,6 +1637,7 @@ const languages = {
         pronunciation: "dyah-koo-yoo",
       },
     },
+    voice: "ru-RU",
   },
   Turkmen: {
     spokenIn: ["Turkmenistan"],
@@ -1509,6 +1647,7 @@ const languages = {
         pronunciation: "sahg bohl",
       },
     },
+    voice: "tr-TR",
   },
   Tuvaluan: {
     spokenIn: ["Tuvalu"],
@@ -1518,6 +1657,7 @@ const languages = {
         pronunciation: "fah-fay-tah-ee",
       },
     },
+    voice: "en-NZ",
   },
   "Scottish Gaelic": {
     spokenIn: ["Scotland"],
@@ -1527,6 +1667,7 @@ const languages = {
         pronunciation: "tah-pah leh",
       },
     },
+    voice: "en-IE",
   },
   Welsh: {
     spokenIn: ["Wales"],
@@ -1536,6 +1677,7 @@ const languages = {
         pronunciation: "dee-olch",
       },
     },
+    voice: "en-GB",
   },
   Pitcairnese: {
     spokenIn: ["Pitcairn Islands"],
@@ -1545,6 +1687,7 @@ const languages = {
         pronunciation: "tah-eh",
       },
     },
+    voice: "en-NZ",
   },
   Jèrriais: {
     spokenIn: ["Jersey"],
@@ -1554,6 +1697,7 @@ const languages = {
         pronunciation: "mair-see",
       },
     },
+    voice: "fr-CA",
   },
   Manx: {
     spokenIn: ["Isle of Man"],
@@ -1563,6 +1707,7 @@ const languages = {
         pronunciation: "gur-ah mee ayd",
       },
     },
+    voice: "en-IE",
   },
   Uzbek: {
     spokenIn: ["Uzbekistan"],
@@ -1572,6 +1717,7 @@ const languages = {
         pronunciation: "rah-mat",
       },
     },
+    voice: "ru-RU",
   },
   Latin: {
     spokenIn: ["Vatican City"],
@@ -1581,6 +1727,7 @@ const languages = {
         pronunciation: "grah-tee-ahs tee-bee ah-go",
       },
     },
+    voice: "it-IT",
   },
   Vietnamese: {
     spokenIn: ["Vietnam"],
@@ -1588,8 +1735,10 @@ const languages = {
       thankYou: {
         literal: "Cảm ơn",
         pronunciation: "cham-on",
+        spoken: "gam-on",
       },
     },
+    voice: "th-TH",
   },
   Chewa: {
     spokenIn: ["Zimbabwe"],
@@ -1599,6 +1748,7 @@ const languages = {
         pronunciation: "zee-koh-moh",
       },
     },
+    voice: "en-ZA",
   },
   Chibarwe: {
     spokenIn: ["Zimbabwe"],
@@ -1608,6 +1758,7 @@ const languages = {
         pronunciation: "mah-too-rah",
       },
     },
+    voice: "en-ZA",
   },
   Kalanga: {
     spokenIn: ["Zimbabwe"],
@@ -1617,6 +1768,7 @@ const languages = {
         pronunciation: "koh-meh-leh",
       },
     },
+    voice: "en-ZA",
   },
   Khoisan: {
     spokenIn: ["Zimbabwe"],
@@ -1626,6 +1778,7 @@ const languages = {
         pronunciation: "kam-ah-goo",
       },
     },
+    voice: "en-ZA",
   },
   Nambya: {
     spokenIn: ["Zimbabwe"],
@@ -1635,6 +1788,7 @@ const languages = {
         pronunciation: "mah-too-rah",
       },
     },
+    voice: "en-ZA",
   },
   Ndau: {
     spokenIn: ["Zimbabwe"],
@@ -1644,6 +1798,7 @@ const languages = {
         pronunciation: "mah-too-rah",
       },
     },
+    voice: "en-ZA",
   },
   Ndebele: {
     spokenIn: ["Zimbabwe"],
@@ -1653,6 +1808,7 @@ const languages = {
         pronunciation: "ngi-yah-bong-ah",
       },
     },
+    voice: "en-ZA",
   },
   Shangani: {
     spokenIn: ["Zimbabwe"],
@@ -1662,6 +1818,7 @@ const languages = {
         pronunciation: "ngi-yah-bong-ah",
       },
     },
+    voice: "en-ZA",
   },
   Shona: {
     spokenIn: ["Zimbabwe"],
@@ -1671,6 +1828,7 @@ const languages = {
         pronunciation: "mah-too-rah",
       },
     },
+    voice: "en-ZA",
   },
   Tonga: {
     spokenIn: ["Zimbabwe"],
@@ -1680,6 +1838,7 @@ const languages = {
         pronunciation: "mah-too-rah",
       },
     },
+    voice: "en-ZA",
   },
 };
 
@@ -1811,22 +1970,6 @@ const App = () => {
     });
   }, [letter]);
 
-  // <nav
-  //       class="w-full flex gap-4 justify-between items-center py-4 px-4 text-xs shadow-xl border-b"
-  //     >
-  //       <h1 class="font-extrabold text-black tracking-wide text-lg">
-  //         🌏 Dankon
-  //       </h1>
-  //       <button
-  //         class="text-xl w-10"
-  // onclick=${() => {
-  //   setSearch({ term: "", results: searcher.search(search.term) });
-  // }}
-  //       >
-  //         🔍
-  //       </button>
-  //     </nav>
-
   return html`
     <main ref=${main} class="h-screen max-h-[100dvh] flex flex-col">
       <ul
@@ -1838,7 +1981,9 @@ const App = () => {
           const literal = languages[language].translations.thankYou.literal;
           const pronunciation =
             languages[language].translations.thankYou.pronunciation;
+          const spoken = languages[language].translations.thankYou.spoken;
           const spokenIn = languages[language].spokenIn;
+          const voice = languages[language].voice;
           const showMaxspokenIn = 5;
 
           return html`
@@ -1857,7 +2002,7 @@ const App = () => {
             >
               <div class="h-full flex flex-col text-center">
                 <h2 class="text-xl font-medium text-black/80">${language}</h2>
-                <div class="my-auto">
+                <div class="my-auto flex flex-col items-center">
                   <h3
                     class=${literal.length > 12 || language === "Japanese"
                       ? "font-bold mb-[0.5vw] text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
@@ -1867,15 +2012,41 @@ const App = () => {
                       ? "•".repeat(literal.length)
                       : literal}
                   </h3>
-                  <h4
-                    class="${testMode && !reveal
-                      ? `text-sm font-bold text-black/50 select-none`
-                      : `font-light`}"
-                  >
-                    ${testMode && !reveal
-                      ? "PRESS TO REVEAL"
-                      : `(${pronunciation})`}
-                  </h4>
+                  <div class="w-auto flex items-center gap-2">
+                    <h4
+                      class="${testMode && !reveal
+                        ? `text-sm font-bold text-black/50 select-none`
+                        : `font-light`}"
+                    >
+                      ${testMode && !reveal
+                        ? "PRESS TO REVEAL"
+                        : `(${pronunciation})`}
+                    </h4>
+                    ${!testMode &&
+                    html`<button
+                      onClick=${() => {
+                        const utterThis = new SpeechSynthesisUtterance(
+                          spoken || literal
+                        );
+                        utterThis.lang = voice;
+                        utterThis.pitch = 1;
+                        utterThis.rate = 1;
+                        window.speechSynthesis.speak(utterThis);
+                      }}
+                    >
+                      <svg
+                        class="w-5 h-5 opacity-50 hover:opacity-80"
+                        viewBox="0 0 22 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.4111 16.5381C11.0703 16.5381 11.5537 16.0459 11.5537 15.3955V1.97461C11.5537 1.31543 11.0703 0.788086 10.3936 0.788086C9.94531 0.788086 9.62891 0.981445 9.14551 1.43848L5.47168 4.875C5.41895 4.92773 5.34863 4.9541 5.26953 4.9541H2.78223C1.48145 4.9541 0.77832 5.6748 0.77832 7.03711V10.3066C0.77832 11.6689 1.48145 12.3896 2.78223 12.3896H5.26953C5.34863 12.3896 5.41016 12.416 5.47168 12.4688L9.14551 15.9316C9.58496 16.3535 9.9541 16.5381 10.4111 16.5381ZM18.2246 14.9297C18.6289 15.1758 19.1211 15.0879 19.4023 14.6748C20.5449 13.0576 21.2129 10.8867 21.2129 8.6543C21.2129 6.42188 20.5537 4.24219 19.4023 2.63379C19.1211 2.2207 18.6289 2.12402 18.2246 2.37891C17.8027 2.64258 17.7412 3.16992 18.0576 3.63574C18.9893 5.00684 19.5254 6.79102 19.5254 8.6543C19.5254 10.5088 18.9805 12.293 18.0576 13.6729C17.75 14.1387 17.8027 14.6572 18.2246 14.9297ZM14.6914 12.5742C15.0693 12.8203 15.5615 12.7324 15.834 12.3457C16.5459 11.3965 16.9678 10.0518 16.9678 8.6543C16.9678 7.25684 16.5459 5.9209 15.834 4.96289C15.5615 4.57617 15.0693 4.48828 14.6914 4.74316C14.2607 5.02441 14.1729 5.54297 14.5244 6.05273C15.0078 6.74707 15.2803 7.67871 15.2803 8.6543C15.2803 9.62988 14.999 10.5527 14.5244 11.2559C14.1816 11.7656 14.2607 12.2842 14.6914 12.5742Z"
+                          fill="#1C1C1E"
+                        />
+                      </svg>
+                    </button>`}
+                  </div>
                 </div>
                 <h5
                   class="mx-auto px-12 uppercase text-xs border-b pb-2 mb-3 text-black/30 tracking-wider font-medium select-none"
@@ -1931,19 +2102,19 @@ const App = () => {
         >
           <button
             data-letter-button="homepage"
-            class="w-10 h-10 rounded-full flex-none text-black"
+            class="w-10 h-10 p-1.5 rounded-full flex-none text-black"
             onclick=${() => {
               const el = document.querySelector(`#homepage`);
               el?.scrollIntoView();
             }}
           >
             <svg
-              viewBox="0 0 28 28"
+              viewBox="0 0 22 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M14 22.7334C18.9658 22.7334 23.0791 18.6289 23.0791 13.6543C23.0791 8.68848 18.9658 4.5752 13.9912 4.5752C9.02539 4.5752 4.9209 8.68848 4.9209 13.6543C4.9209 18.6289 9.03418 22.7334 14 22.7334ZM14 21.3271C9.80762 21.3271 6.32715 17.8467 6.32715 13.6543C6.32715 9.6377 9.50879 6.28027 13.4639 5.99902C13.2529 6.20117 13.1826 6.43848 13.1562 6.77246C12.8838 6.71973 12.6113 6.69336 12.3916 6.69336C11.7588 6.69336 11.2314 7.0625 10.1592 7.71289C9.10449 8.35449 9.44727 9.875 10.5547 9.99805C9.00781 10.6309 8.07617 12.4238 8.07617 13.1182C8.07617 14.1025 9.6582 15.9922 10.7656 15.9922C11.3369 15.9922 11.9609 15.8779 12.4355 15.8164C12.6465 15.7812 12.7871 15.834 12.8574 16.001C12.9629 16.2383 13.0244 16.4844 13.0244 16.8975C13.0244 17.7061 12.6377 20.5625 14.5977 20.5625C15.9863 20.5625 17.0762 18.4883 17.8232 17.1348C18.4648 15.957 19.2471 14.8848 19.2471 14.0498C19.2471 13.7246 19.1855 13.4346 19.0449 13.1709C19.6514 13.1709 20.5303 12.7051 21.4707 11.9316C21.6025 12.4854 21.6729 13.0654 21.6729 13.6543C21.6729 17.8467 18.1924 21.3271 14 21.3271ZM14.0527 16.8359C14.0527 15.6934 13.5957 14.7529 12.541 14.7529C12.2949 14.7529 11.9434 14.8057 11.6533 14.8672C11.3281 14.9023 11.0381 14.9639 10.7656 14.9639C10.2207 14.9639 9.10449 13.5312 9.10449 13.1182C9.10449 12.4502 10.1768 10.7979 11.6797 10.7979C12.374 10.7979 12.9365 10.9121 13.499 11.0176C13.9648 11.1055 14.4395 11.1934 14.8965 11.1934C15.7754 11.1934 16.6895 10.7012 16.6895 10.0332C16.6895 9.06641 14.2109 8.31055 12.7959 8.31055C12.418 8.31055 11.8906 8.48633 10.8887 8.95215C10.625 9.0752 10.4229 8.74121 10.6865 8.5918C10.8008 8.52148 10.915 8.45117 11.0557 8.36328C11.6006 8.02051 12.1104 7.71289 12.3477 7.71289C12.5059 7.71289 12.6201 7.72168 12.8486 7.76562C13.0508 7.80078 13.2266 7.82715 13.332 7.82715C13.833 7.82715 14.167 7.51074 14.167 7.00098C14.167 6.68457 14.2637 6.55273 14.5977 6.39453L15.2393 6.08691C17.9639 6.54395 20.2314 8.46875 21.1895 11C20.6445 11.3867 19.3174 12.1514 19.0273 12.1514C18.8691 12.1514 18.6934 11.9932 18.2627 11.668C17.1904 10.8594 16.2061 12.2041 17.252 12.8896C18.0166 13.4082 18.2275 13.6104 18.2275 14.0498C18.2275 14.3223 18.0693 14.665 17.4805 15.667C17.3047 15.957 17.1113 16.291 16.918 16.6426C15.5557 19.1299 15.1865 19.5342 14.6855 19.5342C13.8418 19.5342 14.0527 18.4531 14.0527 16.8359ZM17.9727 9.13672C18.2188 9.13672 18.4209 8.96973 18.4209 8.64453C18.4209 8.30176 17.7881 7.80078 17.2783 7.80078C16.9355 7.80078 16.5225 7.90625 16.5225 8.24902C16.5225 8.60938 17.4717 9.13672 17.9727 9.13672ZM11.6797 9.76953C11.6445 9.76953 11.6006 9.77832 11.5566 9.77832C12.1719 9.4707 12.585 9.33887 12.7959 9.33887C13.3848 9.33887 15.6699 9.90137 15.6699 10.0244C15.6699 10.1299 15.3711 10.2178 14.9756 10.2178C14.334 10.2178 13.1123 9.76953 11.6797 9.76953Z"
+                d="M0.250977 9.2146C0.250977 9.67163 0.602539 10.0671 1.16504 10.0671C1.4375 10.0671 1.68359 9.91772 1.90332 9.74194L2.90527 8.89819V17.072C2.90527 18.3728 3.6875 19.1462 5.03223 19.1462H16.9238C18.2598 19.1462 19.0508 18.3728 19.0508 17.072V8.85425L20.1055 9.74194C20.3164 9.91772 20.5625 10.0671 20.835 10.0671C21.3535 10.0671 21.749 9.74194 21.749 9.23218C21.749 8.93335 21.6348 8.69604 21.4062 8.50269L19.0508 6.51636V2.77222C19.0508 2.37671 18.7959 2.13062 18.4004 2.13062H17.1875C16.8008 2.13062 16.5371 2.37671 16.5371 2.77222V4.40698L12.2568 0.812256C11.4922 0.170654 10.5254 0.170654 9.76074 0.812256L0.602539 8.50269C0.365234 8.69604 0.250977 8.95972 0.250977 9.2146ZM13.5312 11.6404C13.5312 11.2273 13.2676 10.9636 12.8545 10.9636H9.16309C8.75 10.9636 8.47754 11.2273 8.47754 11.6404V17.3972H5.49805C4.95312 17.3972 4.6543 17.0896 4.6543 16.5359V7.43042L10.6221 2.42065C10.8682 2.20972 11.1494 2.20972 11.3955 2.42065L17.293 7.37769V16.5359C17.293 17.0896 16.9941 17.3972 16.4492 17.3972H13.5312V11.6404Z"
                 fill="#1C1C1E"
               />
             </svg>
