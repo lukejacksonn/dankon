@@ -1,6 +1,6 @@
 # Dankon
 
-> Learn how to express your gratitude everywhere you go
+> Learn to express your gratitude in 140+ different languages
 
 A web app that teaches you how to say "thank you" in (almost) every language with flashcards detailing the literal translation, pronunciation and countries that the language is spoken in. This list of languages was initially curated from [wikipedia](https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory), translated by [ChatGPT](https://chat.openai.com), pronunciations were then populated by [GitHub Co-pilot](https://github.com/features/copilot). Words are spoken out using the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) where available.
 

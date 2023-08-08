@@ -1,20 +1,9 @@
 {
-  "name": "dandon",
+  "name": "dankon",
   "version": "1.0.0",
-  "description": "learn how to be grateful in every language",
+  "description": "Learn to express your gratitude in 140+ different languages",
   "main": "index.js",
   "scripts": {
     "dev": "npx servor --serve --reload --browse"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lukejacksonn/dankon.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lukejacksonn/dankon/issues"
-  },
-  "homepage": "https://github.com/lukejacksonn/dankon#readme"
+  }
 }
