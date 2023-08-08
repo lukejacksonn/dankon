@@ -74,18 +74,18 @@ export const Flashcard =
             </div>
           </div>
           <h5
-            class="mx-auto px-12 uppercase text-xs border-b pb-2 mb-3 text-black/30 tracking-wider font-medium select-none"
+            class="mx-auto px-12 uppercase text-xs border-b pb-2 mb-4 text-black/30 tracking-wider font-medium select-none"
           >
             Spoken In
           </h5>
           <p
-            class="text-xs max-w-screen-sm mx-auto leading-relaxed flex flex-wrap gap-2 justify-center items-center"
+            class="text-sm max-w-screen-sm mx-auto leading-relaxed flex flex-wrap gap-2 justify-center items-center"
           >
             ${spokenIn.slice(0, showMaxspokenIn).map(
               (x) =>
                 html`
                   <button
-                    class="flex gap-1 border py-0.5 pl-1.5 pr-2 rounded-full"
+                    class="flex gap-1.5 border py-0.5 pl-2 pr-2.5 rounded-full"
                     onclick=${() => {
                       setSearch({
                         term: x,
