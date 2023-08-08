@@ -36,7 +36,7 @@ const standaloneOnIos =
   !!navigator.platform.match(/iPhone|iPod|iPad/);
 
 const App = () => {
-  const [letter, setLetter] = useState("");
+  const [letter, setLetter] = useState("homepage");
   const ref = useRef();
   const main = useRef();
 
@@ -73,6 +73,13 @@ const App = () => {
       behavior: "smooth",
     });
   }, [letter]);
+
+  useEffect(() => {
+    if (testMode && letter === "homepage") {
+      const el = document.querySelector(`[data-letter="A"]`);
+      el?.scrollIntoView();
+    }
+  }, [testMode]);
 
   return html`
     <main ref=${main} class="h-screen max-h-[100dvh] flex flex-col">
