@@ -74,8 +74,18 @@ const App = () => {
 
   useEffect(() => {
     const el = document.querySelector(`[data-letter-button="${letter}"]`);
+    const orientation =
+      window.innerWidth > window.innerHeight
+        ? { direction: "offsetTop", side: "top", measure: "offsetWidth" }
+        : {
+            direction: "offsetLeft",
+            side: "left",
+            measure: "offsetHeight",
+          };
+
     el?.parentElement?.scrollTo({
-      left: el.offsetLeft - el.parentElement.offsetWidth / 1.618,
+      [orientation.side]:
+        el[orientation.direction] - el.parentElement[orientation.measure],
       behavior: "smooth",
     });
   }, [letter]);
@@ -97,7 +107,10 @@ const App = () => {
   }, []);
 
   return html`
-    <main ref=${main} class="h-screen max-h-[100dvh] flex flex-col">
+    <main
+      ref=${main}
+      class="h-screen max-h-[100dvh] flex flex-row-reverse portrait:flex-col"
+    >
       <ul
         ref=${ref}
         class="snap-start h-full flex-1 overflow-y-scroll snap-y snap-mandatory divide-y"
@@ -107,8 +120,12 @@ const App = () => {
           Flashcard(testMode, reveal, setReveal, setSearch)
         )}
       </ul>
-      <footer class="${standaloneOnIos ? `border-t pb-3` : "border-t"}">
-        <div class="h-full p-4 flex gap-3 overflow-x-scroll">
+      <footer
+        class="${standaloneOnIos
+          ? `landscape:border-r portrait:border-t pb-3`
+          : "landscape:border-r portrait:border-t"}"
+      >
+        <div class="h-full p-4 flex landscape:flex-col gap-3 overflow-x-scroll">
           <${HomeButton} />
           <${SearchButton} search=${search} setSearch=${setSearch} />
           <${TestButton} testMode=${testMode} setTestMode=${setTestMode} />
