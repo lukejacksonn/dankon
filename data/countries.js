@@ -217,3 +217,5 @@ export const flags = {
   "Isle of Man": "🇮🇲",
   Uzbekistan: "🇺🇿",
 };
+
+console.log(Object.entries(flags).length);
