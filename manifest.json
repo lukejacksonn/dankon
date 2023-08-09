@@ -1,7 +1,7 @@
 {
   "name": "Dankon",
   "display": "standalone",
-  "start_url": "/dankon",
+  "start_url": "/",
   "icons": [
     {
       "src": "icons/windows11/SmallTile.scale-100.png",
