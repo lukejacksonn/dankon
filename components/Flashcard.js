@@ -26,7 +26,7 @@ export const Flashcard =
           if (testMode) e.preventDefault();
         }}
       >
-        <a href="#${language}" class="absolute top-0 left-0 w-full h-full"></a>
+        <a href="#${language}" class="absolute top-0 left-0 w-0 h-0"></a>
         <div class="h-full flex flex-col text-center">
           <h2 class="text-xl font-medium text-black/80">${language}</h2>
           <div class="my-auto flex flex-col items-center">
